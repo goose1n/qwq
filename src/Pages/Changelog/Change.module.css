@@ -1,20 +1,67 @@
 @font-face {
-    font-family: OS-Regular;
-    src: url(./public/fonts/OpenSans-Regular.ttf);
+  font-family: OS-Regular;
+  src: url(./public/fonts/OpenSans-Regular.ttf);
 }
 @font-face {
-    font-family: Roboto-Bold;
-    src: url(./public/fonts/Roboto-Bold.ttf);
+  font-family: Roboto-Bold;
+  src: url(./public/fonts/Roboto-Bold.ttf);
 }
 @font-face {
-    font-family: Roboto-Medium;
-    src: url(./public/fonts/Roboto-Medium.ttf);
-  }
-@font-face {
-    font-family: Roboto-Black;
-    src: url(./public/fonts/Roboto-Black.ttf);
+  font-family: Roboto-Medium;
+  src: url(./public/fonts/Roboto-Medium.ttf);
 }
 @font-face {
-    font-family: OS-SemiBold;
-    src: url(./public/fonts/OpenSans-SemiBold.ttf);
+  font-family: Roboto-Black;
+  src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: OS-SemiBold;
+  src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+
+.ChangeBlock {
+  background-image: url(./public/ImgProj/banners/lic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ChangeBlock_title {
+  padding: 100px 0;
+  font-family: Roboto-Black, serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 59px;
+  color: #274c5b;
+  position: absolute;
+}
+
+.ChangeImg {
+  width: 100%;
+}
+.change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 200px;
+  box-shadow: 0px 39px 37px rgba(196, 196, 196, 0.25);
+  border-radius: 30px;
+  margin: 100px 0;
+}
+.v {
+  color: #274c5b;
+  font-size: 30px;
+}
+.ChangeP {
+  color: #525c60;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.Changecont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
