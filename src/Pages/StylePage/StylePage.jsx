@@ -5,6 +5,7 @@ import styles from "./StylePage.module.css";
 const Style = () => {
   return (
     <div className={styles.Stylecontainer}>
+      <p>hello</p>
       <div className={styles.styleBlock}>
         <h1 className={styles.styleBlock_title}>Style Guide</h1>
         <img
