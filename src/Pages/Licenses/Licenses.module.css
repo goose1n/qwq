@@ -1,0 +1,97 @@
+@font-face {
+  font-family: OS-Regular;
+  src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: OS-SemiBold;
+  src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+
+.licensesCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.licBlock {
+  background-image: url(./public/ImgProj/lic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.licBlock_title {
+  padding: 100px 0;
+  font-family: Roboto-Black, serif;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #274c5b;
+  position: absolute;
+}
+
+.licImg {
+  width: 100%;
+}
+
+.licBlock_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  padding: 20px 0;
+}
+
+.licBlock_subtitle {
+  display: flex;
+  padding: 20px 0;
+}
+
+.licBlock_text__h1 {
+  font-family: Roboto-Black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 47px;
+  color: #274c5b;
+  width: 290px;
+}
+
+.licBlock_text__p {
+  font-family: OS-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  color: #525c60;
+  width: 800px;
+}
+
+.licBlock_title_p {
+  font-family: Roboto-Black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35px;
+  color: #274c5b;
+}
+
+.licBlock_text__p_span{
+    color: #274C5B;
+    font-family: OS-SemiBold;
+    font-weight: bold;
+}

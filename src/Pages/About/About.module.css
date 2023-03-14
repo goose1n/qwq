@@ -1,0 +1,84 @@
+@font-face {
+  font-family: OS-Regular;
+  src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: OS-SemiBold;
+  src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: Yellowtail;
+  src: url(./public/fonts/Yellowtail-Regular.ttf);
+}
+
+.aboutCont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.aboutBlock {
+  background-image: url(./public/imgProj/banners/bcgAbout.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0;
+  width: 100%;
+}
+.aboutCont_first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutBlock_title {
+  font-family: Roboto-Black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 82px;
+  color: #274c5b;
+}
+.aboutCont_first_img {
+  width: 700px;
+}
+.aboutCont_first_text{
+  width: 600px;
+}
+.aboutCont_first_text_yellow {
+  font-family: Yellowtail;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #7eb693;
+}
+.aboutCont_first_text_title {
+  font-family: Roboto-Black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #274c5b;
+}
+.aboutCont_first_text_sub {
+  font-family: OS-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  color: #525c60;
+}

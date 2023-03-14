@@ -1,0 +1,79 @@
+@font-face {
+  font-family: OS-Regular;
+  src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: OS-SemiBold;
+  src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+
+.subblock {
+  width: 1100px;
+  height: 220px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(./public/ImgProj/banners/bcgfooter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.sub {
+  font-family: Roboto-Black;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.subinput:focus {
+  width: 250px;
+  height: 40px;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-family: OS-Regular;
+}
+
+.subinput {
+  width: 250px;
+  height: 40px;
+  border: 0;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  font-family: OS-Regular;
+}
+.subbutton {
+  width: 100px;
+  height: 40px;
+  border: 0;
+  background: #274c5b;
+  color: white;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.subbutton {
+  width: 100px;
+  height: 40px;
+  border: 0;
+  background: #274c5b;
+  color: white;
+  border-radius: 10px;
+  margin-left: 5px;
+}

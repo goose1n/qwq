@@ -1,0 +1,114 @@
+@font-face {
+    font-family: OS-Regular;
+    src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(./public/fonts/Roboto-Medium.ttf);
+  }
+@font-face {
+    font-family: Roboto-Black;
+    src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: OS-SemiBold;
+    src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+
+.footer{
+ width: 100%;
+ height: 250px;
+ background:white;
+ display: flex;
+ margin-top: 30px;
+} 
+.footcontact{
+ font-size: 30px;
+ color: #274C5B;
+}
+.email{
+ font-size: 18px;
+ color:#525C60;
+ margin-top: 20px;
+}
+.blockleft{
+    width: 200px;
+    text-align: end;
+}
+a{
+text-decoration: none;
+color: #525C60;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.blockright{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.lorem{
+    font-size: 17px;
+    color: #525C60;
+    margin-top: 20px;
+}
+.loremm{
+    font-size: 17px;
+    color: #525C60;
+    text-align: center;
+    margin-top: 5px;
+}
+.blockicon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.iconfot{
+    width: 26px;
+    height: 26px;
+    margin-top: 40px;
+}
+.utility{
+    font-size: 30px;
+    color: #274C5B;
+}
+.blockbottom{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sylca{
+    font-size: 18px;
+    color: #525C60;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.foooter{
+    text-align: center;
+    margin: 10px 0;
+    color: #525C60;
+    /* border-top: 1px solid #525C60; */
+    padding-top: 10px;
+    width: 100%;
+}
+
+.footcontact, .utility{
+    font-family: Roboto-Bold;
+}
+
+.foooter, .footcontact, .email{
+    font-family: OS-SemiBold;
+}
+
+.lorem, .loremm, .sylca{
+    font-family: OS-Regular;
+}
+
+
+

@@ -1,0 +1,202 @@
+.styleBlock {
+  background-image: url(./public/ImgProj/lic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styleBlock_title {
+  padding: 100px 0;
+  font-family: Roboto-Black, serif;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 59px;
+  color: #274c5b;
+  position: absolute;
+}
+.styleImg {
+  width: 100%;
+}
+.styleBlockColor {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.styleTextColor {
+  color: #274c5b;
+}
+.gridBlock {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+  margin-left: 250px;
+}
+.grid {
+  width: 120px;
+  height: 120px;
+  border-radius: 11px;
+}
+.grid:nth-child(1) {
+  background: #274c5b;
+}
+.grid:nth-child(2) {
+  background: #7eb693;
+}
+.grid:nth-child(3) {
+  background: #efd372;
+}
+.grid:nth-child(4) {
+  background: #d4d4d4;
+}
+.grid:nth-child(5) {
+  background: #f9f8f8;
+}
+.grid:nth-child(6) {
+  background: #eff6f1;
+}
+.grid:nth-child(7) {
+  background: #525c60;
+}
+.styleP {
+  font-size: 18px;
+  color: #274c5b;
+  margin-top: 130px;
+  text-align: center;
+  font-family: Roboto-Medium;
+}
+.styleBlockcont {
+  display: flex;
+  margin-top: 100px;
+}
+.TextStyle {
+  margin-left: 100px;
+  font-size: 35px;
+  color: #274c5b;
+}
+.styleH {
+  margin-left: 180px;
+  color: #274c5b;
+}
+.styleBlockP {
+  display: flex;
+  margin-top: 100px;
+}
+.paraH {
+  font-size: 35px;
+  color: #274c5b;
+  margin-left: 100px;
+}
+.styleParagraf {
+  font-size: 18px;
+  color: #525c60;
+  margin-left: 180px;
+}
+.styleList {
+  display: flex;
+  margin-top: 100px;
+}
+.List {
+  font-size: 35px;
+  color: #274c5b;
+  margin-left: 100px;
+}
+.ListP {
+  font-size: 18px;
+  color: #525c60;
+  margin-left: 280px;
+}
+.styleTextQ {
+  display: flex;
+  margin-top: 100px;
+}
+.textQ {
+  font: 35px;
+  color: #274c5b;
+  margin-left: 100px;
+}
+.QtextP {
+  width: 700px;
+  height: 180px;
+  background: #f1edea;
+  border-radius: 30px;
+  margin-left: 250px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #274c5b;
+  font-size: 18px;
+}
+.BlockButton {
+  display: flex;
+  margin-top: 100px;
+}
+.ButtonH {
+  font-size: 35px;
+  color: #274c5b;
+  margin-left: 100px;
+  margin-top: -10px;
+}
+.ButtonTextImg{
+  width: 200px;
+  height: 70px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 5px;
+  margin-left: 250px;
+  background: #274C5B;
+  color: white;
+}
+.ButtonTextImg1{
+  width: 200px;
+  height: 70px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 5px;
+  color: #274C5B; 
+  background: #EFD372;
+  margin-left: 680px;
+  margin-top: -70px;
+}
+.ButtonTextImg2{
+  width: 200px;
+  height: 70px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 5px;
+  color: #274C5B; 
+  border: 1px solid #274c5b;
+  margin-left: 910px;
+  margin-top: -69px;
+} 
+
+.ButtonTextImg3{
+  width: 200px;
+  height: 70px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 5px;
+  margin-left: 455px;
+  background: #274C5B;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

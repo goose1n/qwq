@@ -1,0 +1,20 @@
+@font-face {
+    font-family: OS-Regular;
+    src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(./public/fonts/Roboto-Medium.ttf);
+  }
+@font-face {
+    font-family: Roboto-Black;
+    src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: OS-SemiBold;
+    src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: OS-Regular;
+  src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: OS-SemiBold;
+  src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+
+.navCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px 0;
+}
+
+.navLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.inputText:active {
+  background: #fafafa;
+  border-radius: 36px;
+  width: 330px;
+  height: 50px;
+  border: none;
+  outline: 0;
+  font-family: Roboto-Bold;
+  padding-left: 20px;
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+.inputText {
+  background: #fafafa;
+  border-radius: 36px;
+  width: 330px;
+  height: 50px;
+  border: none;
+  font-family: Roboto-Bold;
+  font-size: 20px;
+  outline: 0;
+  padding-left: 20px;
+  position: relative;
+  z-index: 2;
+}
+.searchIcon{
+  position: absolute;
+  z-index: 10000;
+  width: 50px;
+  display: flex;
+  margin-left: 310px;
+}

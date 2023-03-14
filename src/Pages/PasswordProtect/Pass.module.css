@@ -1,0 +1,114 @@
+@font-face {
+  font-family: OS-Regular;
+  src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: OS-SemiBold;
+  src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+
+.passCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+.passWindow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 39px 37px rgba(196, 196, 196, 0.25);
+  border-radius: 30px;
+  margin: 30px 0;
+  gap: 10px;
+}
+
+.passBlock {
+  background-image: url(./public/ImgProj/banners/lic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.passBlock_title {
+  padding: 100px 0;
+  font-family: Roboto-Black, serif;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 59px;
+  color: #274c5b;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.passWindow_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.passWindow_text_title {
+  font-family: Roboto-Bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #274c5b;
+}
+
+.passWindow_text_input {
+  background: #ffffff;
+  border: 1px solid #7eb693;
+  border-radius: 16px;
+  width: 400px;
+  height: 60px;
+  padding-left: 20px;
+}
+.passWindow_text_input:focus {
+  background: #ffffff;
+  border: 1px solid #7eb693;
+  border-radius: 16px;
+  width: 400px;
+  height: 60px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.passImg {
+  width: 100%;
+}
+
+.errorButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 43px 20px 40px;
+  gap: 10px;
+  width: 120px;
+  height: 15px;
+  background: #274c5b;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.errorLink {
+  font-family: Roboto-Bold;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: OS-Regular;
+  src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: OS-SemiBold;
+  src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+
+
+.errorCont {
+  background-image: url(./public/ImgProj/banners/bcgError.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  height: auto;
+  width: 100%;
+  padding: 160px 0;
+}
+
+.errorContText{
+    margin-right: 180px;
+}
+
+.errorImg {
+  width: 400px;
+}
+
+.errorTitle {
+  font-family: 'Roboto-Medium';
+  font-weight: 800;
+  font-size: 63px;
+  line-height: 82px;
+  color: #274c5b;
+  padding: 8px 0;
+}
+
+.errorSubtitle {
+  font-family: 'OS-SemiBold';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 165.4%;
+  padding: 8px 0;
+  color: #525c60;
+}
+
+.errorButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 49px 28px 46px;
+  gap: 10px;
+  width: 150px;
+  height: 20px;
+  background: #274c5b;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.errorLink {
+  font-family: Roboto-Bold;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
