@@ -32,6 +32,26 @@ const About = () => {
             had ceased to been the industry's standard dummy text ever since the
             1500s, when an unknown printer took a galley.
           </p>
+          <div className={styles.aboutCont_first_text_third}>
+            <div className={styles.aboutCont_first_text_third_q}>
+              <img src="./public/imgProj/icon/Tractor.png" alt="" />
+              <p className={styles.aboutCont_first_text_third_q}>
+                Modern Agriculture Equipment
+              </p>
+            </div>
+            <div className={styles.aboutCont_first_text_third_q}>
+              <img src="./public/imgProj/icon/Chemical.png" alt="" />
+              <p className={styles.aboutCont_first_text_third_q}>
+                No growth hormones are used
+              </p>
+            </div>
+          </div>
+          <div className={styles.aboutButton}>
+          <a className={styles.aboutLink} href="/portfoliosingle">
+            Explore More
+          </a>
+          <img src="./public/imgProj/icon/Aerrow.png" alt="123" />
+        </div>
         </div>
       </div>
       <SubBlock />
