@@ -94,7 +94,8 @@ const Service = () => {
         <h2 className={styles.serviceText}>Organic Only</h2>
         <h1 className={styles.serviceclean}>Everyday Fresh & Clean</h1>
         <p className={styles.servicesimply}>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the </p>
-        <img src="" alt="" />
+        <img className={styles.serviceIMG} src="./public/ImgProj/icon/Video Icon.png" alt=""/>
+
       </div>
      </div>
 
