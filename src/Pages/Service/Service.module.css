@@ -71,6 +71,7 @@
 .block1{
   display: block;
   text-align: end;
+  gap: 70px;
 }
 .changeimg{
   width: 400px;
@@ -79,6 +80,7 @@
 }
 .block2{
   margin-top: -22px;
+   gap: 70px;
 
 }
 .servicetextH{
@@ -88,4 +90,60 @@
 .servicetextP{
   font-size: 18px;
   color: #525C60;
+}
+.serviceB{
+  gap: 70px;
+}
+
+.ButtonTextImg1{
+  width: 200px;
+  height: 70px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 5px;
+  color: #274C5B; 
+  font-family: Roboto-Bold;
+  border: 1px solid #274c5b;
+  margin: 40px 0;
+
+}
+.servicefoto{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.fotoservice{
+  background-image: url(./public/ImgProj/banners/bcgService.jpg);
+  background-size: cover;
+  padding: 300px 510px;
+  gap: 50px;
+  
+
+
+}
+.serviceText{
+  font-size: 30px;
+  color: #7eb693;
+  font-family: Yellowtail;
+  text-align: center;
+  height: 50px;
+  margin-top: -80px;
+
+}
+.servicesimply{
+font-size: 17px;
+text-align: center;
+}
+.serviceclean{
+  font-size: 45px;
+    color: #274C5B;
+    font-family: Roboto-Black;
+  height: 70px;
 }
