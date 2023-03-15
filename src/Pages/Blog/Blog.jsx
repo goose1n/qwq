@@ -24,6 +24,7 @@ const Blog = () => {
           <BlogCard img="./public/ImgProj/photos/blogTrash.png"></BlogCard>
         </div>
       </div>
+      <h1>djfjis</h1>
 
       <SubBlock />
     </div>
