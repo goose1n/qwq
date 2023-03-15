@@ -122,3 +122,70 @@
   text-decoration: none;
   outline: none;
 }
+
+.aboutCont_second{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.aboutCont_second_text_yellow {
+  font-family: Yellowtail, serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #7eb693;
+}
+
+.aboutCont_second_text_title {
+  font-family: Roboto-Black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #274c5b;
+  width: 525px;
+}
+
+.aboutCont_second_text_sub {
+  font-family: OS-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  color: #525c60;
+  width: 671px;
+}
+
+.aboutCont_second_text_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 29px 0px;
+  background: #ececec;
+  border-radius: 49px;
+  width: 280px;
+  margin: 20px 0;
+}
+
+.aboutCont_second_text_block_text {
+  font-family: Roboto-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #274c5b;
+}
+
+.aboutCont_second_text_block_middle {
+  font-family: OS-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  color: #525c60;
+  width: 444px;
+  padding-left: 60px;
+}
