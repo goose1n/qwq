@@ -4,6 +4,7 @@ import styles from "./BlogCard.module.css";
 const BlogCard = (props) => {
   return (
     <div className={styles.blogCard}>
+
       <div className={styles.img}>
         <img className={styles.bcgImg} src={props.img} alt="" />
         <div className={styles.data}>{props.data}</div>
@@ -16,6 +17,7 @@ const BlogCard = (props) => {
         <h2>{props.title}</h2>
         <p>{props.text}</p>
       </div>
+      
     </div>
   );
 };

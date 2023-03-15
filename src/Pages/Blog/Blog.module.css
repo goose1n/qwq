@@ -1,14 +1,19 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .blogImg{
     width: 100%;
 }
 
 .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.grids{
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    row-gap: 130px;
 }

@@ -16,10 +16,12 @@ const Blog = () => {
 
       <div className={styles.cards}>
         <div className={styles.grids}>
-          <BlogCard data="15july" name="Mike" title="vitamin D3"></BlogCard>
-          <BlogCard></BlogCard>
-          <BlogCard></BlogCard>
-          <BlogCard></BlogCard>
+          <BlogCard img="./public/ImgProj/photos/blogRoccah.png" data="15july" name="Mike" title="vitamin D3"></BlogCard>
+          <BlogCard img="./public/ImgProj/photos/blogTomato.png"></BlogCard>
+          <BlogCard img="./public/ImgProj/photos//blogVeggie.png"></BlogCard>
+          <BlogCard img="./public/ImgProj/photos/blogMan.png"></BlogCard>
+          <BlogCard img="./public/ImgProj/photos/blogLady.png"></BlogCard>
+          <BlogCard img="./public/ImgProj/photos/blogTrash.png"></BlogCard>
         </div>
       </div>
 
