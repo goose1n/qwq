@@ -119,6 +119,11 @@
 
   
 }
+
+.ButtonBlock1{
+  cursor: pointer;
+}
+
 .fotoservice{
   background-image: url(./public/ImgProj/banners/bcgService.jpg);
   background-size: cover;
