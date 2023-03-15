@@ -4,7 +4,8 @@ import SubBlock from "../../UI/SubBlock/SubBlock";
 const BloSin = () => {
   return (
     <div>
-      hello <SubBlock />
+      <p>hello world</p> 
+      <SubBlock />
     </div>
   );
 };

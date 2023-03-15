@@ -16,15 +16,14 @@ const Blog = () => {
 
       <div className={styles.cards}>
         <div className={styles.grids}>
-          <BlogCard img="./public/ImgProj/photos/blogRoccah.png" data="15july" name="Mike" title="vitamin D3"></BlogCard>
-          <BlogCard img="./public/ImgProj/photos/blogTomato.png"></BlogCard>
-          <BlogCard img="./public/ImgProj/photos//blogVeggie.png"></BlogCard>
-          <BlogCard img="./public/ImgProj/photos/blogMan.png"></BlogCard>
-          <BlogCard img="./public/ImgProj/photos/blogLady.png"></BlogCard>
-          <BlogCard img="./public/ImgProj/photos/blogTrash.png"></BlogCard>
+          <BlogCard img="./public/ImgProj/photos/blogRoccah.png" name="By Rachi Card" title="The Benefits of Vitamin D & How to Get It" text='Simply dummy text of the printing and typesetting industry. Lorem Ipsum'></BlogCard>
+          <BlogCard img="./public/ImgProj/photos/blogTomato.png" name="By Rachi Card" title='Our Favorite Summertime Tomato' text='Simply dummy text of the printing and typesetting industry. Lorem Ipsum'></BlogCard>
+          <BlogCard img="./public/ImgProj/photos//blogVeggie.png" name="By Rachi Card" title='Benefits of Vitamin C & How to Get It' text='Simply dummy text of the printing and typesetting industry. Lorem Ipsum'></BlogCard>
+          <BlogCard img="./public/ImgProj/photos/blogMan.png" name="By Rachi Card" title='Research More Organic Foods' text='Simply dummy text of the printing and typesetting industry. Lorem Ipsum'></BlogCard>
+          <BlogCard img="./public/ImgProj/photos/blogLady.png" name="By Rachi Card" title='Research More Organic Foods' text='Simply dummy text of the printing and typesetting industry. Lorem Ipsum'></BlogCard>
+          <BlogCard img="./public/ImgProj/photos/blogTrash.png" name="By Rachi Card" title='Don’t Use Plastic Product! it’s Kill Nature' text='Simply dummy text of the printing and typesetting industry. Lorem Ipsum'></BlogCard>
         </div>
       </div>
-      <h1>djfjis</h1>
 
       <SubBlock />
     </div>
