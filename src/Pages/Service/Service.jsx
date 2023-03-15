@@ -89,7 +89,7 @@ const Service = () => {
           <h1 className={styles.serviceclean}>Everyday Fresh & Clean</h1>
           <p className={styles.servicesimply}>
             Simply dummy text of the printing and typesetting industry. Lorem
-            had ceased to been the industry's b standard dummy text ever since the{" "}
+            had ceased to been the industry's  standard dummy text ever since the{" "}
           </p>
           <img
             className={styles.serviceIMG}
