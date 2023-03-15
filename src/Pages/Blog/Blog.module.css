@@ -1,5 +1,24 @@
-.blogImg{
+.blogBanner{
+    position: relative;
+    background: url(./public/ImgProj/banners/bcgBlog.png) no-repeat;
+    background-size: contain;
+}
+
+.blogPattern{
     width: 100%;
+}
+
+.blogTitle{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Roboto-Black;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    color: #274c5b;
 }
 
 .cards{
