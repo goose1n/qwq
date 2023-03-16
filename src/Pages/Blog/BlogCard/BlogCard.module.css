@@ -1,3 +1,24 @@
+@font-face {
+    font-family: OS-Regular;
+    src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(./public/fonts/Roboto-Medium.ttf);
+  }
+@font-face {
+    font-family: Roboto-Black;
+    src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: OS-SemiBold;
+    src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+
 .blogCard{
     position: relative;
     display: flex;
@@ -37,7 +58,7 @@
     flex-flow: column;
     justify-content: space-evenly;
     background-color: #fff;
-    box-shadow: 0px 20px 35px rgba(148, 146, 146, 0.25);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 30px;
     position: absolute;
     bottom: -100px;
