@@ -7,7 +7,7 @@ import styles from "./Nav.module.css";
 
 const Nav = () => {
   return (
-    <div className={styles.navCont}>
+    <nav className={styles.navCont}>
       <Logo/>
       <div className={styles.navLinks}>
         <Links className={styles.link} to="/" text="Home"/>
@@ -21,7 +21,7 @@ const Nav = () => {
         <img className={styles.searchIcon} src="./public/imgProj/icon/Search.png" alt="" />
         <input className={styles.inputText} maxLength="25" type="text" />
       </div>
-    </div>
+    </nav>
   );
 };
 
