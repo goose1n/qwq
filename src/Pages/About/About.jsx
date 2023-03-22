@@ -1,4 +1,5 @@
 import React from "react";
+import BlueBtn from "../../UI/BlueBtn/BlueBtn";
 import SubBlock from "../../UI/SubBlock/SubBlock";
 import styles from "./About.module.css";
 
@@ -46,12 +47,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className={styles.aboutButton}>
-            <a className={styles.aboutLink} href="/portfoliosingle">
-              Explore More
-            </a>
-            <img src="./public/imgProj/icon/Aerrow.png" alt="123" />
-          </div>
+          <BlueBtn text="Explore More"/>
         </div>
       </div>
       <div className={styles.aboutSecond}>
@@ -96,36 +92,142 @@ const About = () => {
           </div>
         </div>
         <div className={styles.aboutCont_second_fourCont}>
-        <div className={styles.aboutCont_second_four}>
-          <img src="./public/imgProj/icon/cart.png" alt="" />
-          <h1 className={styles.aboutCont_second_four_title}>Return Policy</h1>
-          <p className={styles.aboutCont_second_four_sub}>
-            Simply dummy text of the printintypesetting industry.
+          <div className={styles.aboutCont_second_four}>
+            <img src="./public/imgProj/icon/cart.png" alt="" />
+            <h1 className={styles.aboutCont_second_four_title}>
+              Return Policy
+            </h1>
+            <p className={styles.aboutCont_second_four_sub}>
+              Simply dummy text of the printintypesetting industry.
+            </p>
+          </div>
+          <div className={styles.aboutCont_second_four}>
+            <img src="./public/imgProj/icon/list.png" alt="" />
+            <h1 className={styles.aboutCont_second_four_title}>100% Fresh</h1>
+            <p className={styles.aboutCont_second_four_sub}>
+              Simply dummy text of the printintypesetting industry.
+            </p>
+          </div>
+          <div className={styles.aboutCont_second_four}>
+            <img src="./public/imgProj/icon/24.png" alt="" />
+            <h1 className={styles.aboutCont_second_four_title}>Support 24/7</h1>
+            <p className={styles.aboutCont_second_four_sub}>
+              Simply dummy text of the printintypesetting industry.
+            </p>
+          </div>
+          <div className={styles.aboutCont_second_four}>
+            <img src="./public/imgProj/icon/card.png" alt="" />
+            <h1 className={styles.aboutCont_second_four_title}>
+              Secured Payment
+            </h1>
+            <p className={styles.aboutCont_second_four_sub}>
+              Simply dummy text of the printintypesetting industry.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.aboutCont_third}>
+        <div className={styles.thirdText}>
+          <p className={styles.thirdText_yellow}>Team</p>
+          <h1 className={styles.thirdText_title}>Our Organic Experts</h1>
+          <p className={styles.thirdText_sub}>
+            Simply dummy text of the printing and typesetting industry. Lorem
+            had ceased to been the industry's standard dummy text ever since the
+            1500s, when an unknown printer took a galley.
           </p>
         </div>
-        <div className={styles.aboutCont_second_four}>
-          <img src="./public/imgProj/icon/list.png" alt="" />
-          <h1 className={styles.aboutCont_second_four_title}>100% Fresh</h1>
-          <p className={styles.aboutCont_second_four_sub}>
-            Simply dummy text of the printintypesetting industry.
-          </p>
+        <div className={styles.thirdBlocks}>
+          <div className={styles.thirdBlock_grey}>
+            <img
+              className={styles.thirdBlock_img}
+              src="./public/imgProj/photos/Bacardo.jpg"
+              alt=""
+            />
+            <div className={styles.thirdBlock_textIcons}>
+              <div className={styles.thirdBlock_text}>
+                <h1 className={styles.thirdBlock_text_name}>Giovani Bacardo</h1>
+                <p className={styles.thirdBlock_text_yellow}>Farmer</p>
+              </div>
+              <div className={styles.thirdBlock_icons}>
+                <a href="https://www.facebook.com/">
+                  <img src="./public/imgProj/icon/Fb.png" alt="" />
+                </a>
+                <a href="https://twitter.com/">
+                  <img src="./public/imgProj/icon/Twiter.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className={styles.thirdBlock_white}>
+            <img
+              className={styles.thirdBlock_img}
+              src="./public/imgProj/photos/Loreno.jpg"
+              alt=""
+            />
+            <div className={styles.thirdBlock_textIcons}>
+              <div className={styles.thirdBlock_text}>
+                <p className={styles.thirdBlock_text_name}>Marianne Loreno</p>
+                <p className={styles.thirdBlock_text_yellow}>Designer</p>
+              </div>
+              <div className={styles.thirdBlock_icons}>
+                <a href="https://www.instagram.com/">
+                  <img src="./public/imgProj/icon/Insta.png" alt="" />
+                </a>
+                <a href="https://www.facebook.com/">
+                  <img src="./public/imgProj/icon/Fb.png" alt="" />
+                </a>
+                <a href="https://twitter.com/">
+                  <img src="./public/imgProj/icon/Twiter.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className={styles.thirdBlock_grey}>
+            <img
+              className={styles.thirdBlock_img}
+              src="./public/imgProj/photos/Pelore.jpg"
+              alt=""
+            />
+            <div className={styles.thirdBlock_textIcons}>
+              <div className={styles.thirdBlock_text}>
+                <p className={styles.thirdBlock_text_name}>Riga Pelore</p>
+                <p className={styles.thirdBlock_text_yellow}>Farmer</p>
+              </div>
+              <div className={styles.thirdBlock_icons}>
+                <a href="https://www.instagram.com/">
+                  <img src="./public/imgProj/icon/Insta.png" alt="" />
+                </a>
+                <a href="https://www.facebook.com/">
+                  <img src="./public/imgProj/icon/Fb.png" alt="" />
+                </a>
+                <a href="https://twitter.com/">
+                  <img src="./public/imgProj/icon/Twiter.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className={styles.aboutCont_second_four}>
-          <img src="./public/imgProj/icon/24.png" alt="" />
-          <h1 className={styles.aboutCont_second_four_title}>Support 24/7</h1>
-          <p className={styles.aboutCont_second_four_sub}>
-            Simply dummy text of the printintypesetting industry.
-          </p>
-        </div>
-        <div className={styles.aboutCont_second_four}>
-          <img src="./public/imgProj/icon/card.png" alt="" />
-          <h1 className={styles.aboutCont_second_four_title}>
-            Secured Payment
-          </h1>
-          <p className={styles.aboutCont_second_four_sub}>
-            Simply dummy text of the printintypesetting industry.
-          </p>
-        </div>
+      </div>
+      <div className={styles.aboutCont_fourth}>
+        <p className={styles.fourth_yellow}>About Us</p>
+        <h1 className={styles.fourth_title}>What We Offer for You</h1>
+        <div className={styles.fourth_blocks}>
+          <div className={styles.fourth_block}>
+            <img className={styles.fourthBlock_img} src="./public/imgProj/photos/spicy.jpg" alt="" />
+            <p className={styles.fourthBlock_title}>Spicy</p>
+          </div>
+          <div className={styles.fourth_block}>
+            <img className={styles.fourthBlock_img} src="./public/imgProj/photos/nuts&feeds.jpg" alt="" />
+            <p className={styles.fourthBlock_title}>Nuts & Feesd</p>
+          </div>
+          <div className={styles.fourth_block}>
+            <img className={styles.fourthBlock_img} src="./public/imgProj/photos/pomegranate.jpg" alt="" />
+            <p className={styles.fourthBlock_title}>Fruits</p>
+          </div>
+          <div className={styles.fourth_block}>
+            <img className={styles.fourthBlock_img} src="./public/imgProj/photos/ginger.jpg" alt="" />
+            <p className={styles.fourthBlock_title}>Vegetable</p>
+          </div>
         </div>
       </div>
       <SubBlock />

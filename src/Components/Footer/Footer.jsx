@@ -4,7 +4,8 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className={styles.footerCont}>
+    <div className={styles.footer}>
       <div className={styles.footer}>
         <div className={styles.blockleft}>
           <h1 className={styles.footcontact}>Contact Us</h1>
@@ -78,12 +79,15 @@ const Footer = () => {
           </a>
         </div>
       </div>
+    </div><hr />
+      <div className={styles.footer_hr}>
 
       <p className={styles.foooter}>
-        <hr />
+        
         Copyright © <b>Organick</b> | Designed by <b> VictorFlow </b> Templates
         - Powered by <b> Webflow </b>
       </p>
+      </div>
     </div>
   );
 };
