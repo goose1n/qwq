@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./public/fonts/Roboto-Bold.ttf);
+}
+
+.btn {
+  font-family: Roboto-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #274c5b;
+  width: 220px;
+  height: 79px;
+  background: #efd372;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

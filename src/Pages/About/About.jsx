@@ -1,4 +1,5 @@
 import React from "react";
+import BlueBtn from "../../UI/BlueBtn/BlueBtn";
 import SubBlock from "../../UI/SubBlock/SubBlock";
 import styles from "./About.module.css";
 
@@ -46,12 +47,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className={styles.aboutButton}>
-            <a className={styles.aboutLink} href="/portfoliosingle">
-              Explore More
-            </a>
-            <img src="./public/imgProj/icon/Aerrow.png" alt="123" />
-          </div>
+          <BlueBtn text="Explore More"/>
         </div>
       </div>
       <div className={styles.aboutSecond}>
