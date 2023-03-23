@@ -1,8 +1,8 @@
 import React from "react";
-import styles from './BlogSingle2.module.css'
+import styles from './BlogSingle6.module.css'
 import SubBlock from "../../UI/SubBlock/SubBlock";
 
-const BlogSingle2= () => {
+const BlogSingle6= () => {
   return (
     <div>
       <div className={styles.bcgBlogSingle3}>
@@ -18,7 +18,7 @@ const BlogSingle2= () => {
             </div>
           </div>
           <div>
-            <p className={styles.title}>Our Favorite Summertime Tomato</p>
+            <p className={styles.title}>Don’t Use Plastic Product! it’s Kill Nature</p>
             <p className={styles.desc}>Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
           </div>
         </div>
@@ -58,4 +58,4 @@ const BlogSingle2= () => {
   );
 };
 
-export default BlogSingle2;
+export default BlogSingle6;

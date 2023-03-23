@@ -2,7 +2,7 @@ import React from "react";
 import styles from './BlogSingle3.module.css'
 import SubBlock from "../../UI/SubBlock/SubBlock";
 
-const BloSin = () => {
+const BlogSingle3 = () => {
   return (
     <div>
       <div className={styles.bcgBlogSingle3}>
@@ -58,4 +58,4 @@ const BloSin = () => {
   );
 };
 
-export default BloSin;
+export default BlogSingle3;
