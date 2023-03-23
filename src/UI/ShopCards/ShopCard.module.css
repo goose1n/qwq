@@ -1,34 +1,39 @@
 @font-face {
-    font-family: OS-Regular;
-    src: url(./public/fonts/OpenSans-Regular.ttf);
-  }
-  @font-face {
-    font-family: Roboto-Bold;
-    src: url(./public/fonts/Roboto-Bold.ttf);
-  }
-  @font-face {
-    font-family: Roboto-Medium;
-    src: url(./public/fonts/Roboto-Medium.ttf);
-  }
-  @font-face {
-    font-family: Roboto-Black;
-    src: url(./public/fonts/Roboto-Black.ttf);
-  }
-  @font-face {
-    font-family: OS-SemiBold;
-    src: url(./public/fonts/OpenSans-SemiBold.ttf);
-  }
-  @font-face {
-    font-family: Yellowtail;
-    src: url(./public/fonts/Yellowtail-Regular.ttf);
-  }
+  font-family: OS-Regular;
+  src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: OS-SemiBold;
+  src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: OS-Bold;
+  src: url(./public/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: Yellowtail;
+  src: url(./public/fonts/Yellowtail-Regular.ttf);
+}
 
 .card {
   background: #f9f8f8;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
+  padding: 30px 40px;
 }
 
 .category {
@@ -50,6 +55,52 @@
   color: #ffffff;
 }
 
-.img{
-    background-color: #f9f8f8;
+.img {
+  width: 100%;
+}
+
+.imgCont{
+    width: 250px;
+    height: 250px;
+}
+
+.bottomCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  gap: 5px;
+}
+
+.before {
+  font-family: OS-SemiBold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #b8b8b8;
+  text-decoration: line-through;
+}
+
+.cost {
+  font-family: OS-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #274c5b;
+}
+
+.name {
+  font-family: Roboto-Black;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #274c5b;
 }
