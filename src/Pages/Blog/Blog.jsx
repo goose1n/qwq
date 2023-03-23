@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./Blog.module.css";
 import SubBlock from "../../UI/SubBlock/SubBlock";
-import BlogCard from "./BlogCard/BlogCard";
+import BlogCard from "../../UI/BlogCard/BlogCard";
+
 
 const Blog = () => {
   return (

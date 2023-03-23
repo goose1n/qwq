@@ -93,16 +93,21 @@
 }
 
 .link{
+    width: 150px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #274C5B;
+    border: 1px solid #274C5B;
+    border-radius: 16px;
 }
 
 .linkText{
 font-weight: 700;
 font-size: 20px;
 line-height: 23px;
-color: #274C5B;
+color: white;
 font-family: OS-Regular;
 }
 
@@ -110,4 +115,7 @@ font-family: OS-Regular;
     width: 20px;
     height: 20px;
     margin-left: 20px;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 10px;
 }

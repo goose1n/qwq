@@ -22,7 +22,7 @@ const BlogCard = (props) => {
         <p className={styles.text}>{props.text}</p>
         <NavLink className={styles.link} to={props.to}>
         <div className={styles.linkText}>Read more</div>
-        <img className={styles.linkArrow} src="./public/ImgProj/icon/Aerrow.png" alt="" />
+        <img className={styles.linkArrow} src="./public/ImgProj/icon/right-arrow.png" alt="" />
         </NavLink>
       </div>
       

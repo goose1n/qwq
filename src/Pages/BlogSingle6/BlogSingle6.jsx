@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './BlogSingle6.module.css'
 import SubBlock from "../../UI/SubBlock/SubBlock";
+import LinkBack from "../../UI/LinkBack/LinkBack";
 
 const BlogSingle6= () => {
   return (
@@ -48,6 +49,7 @@ const BlogSingle6= () => {
             </ol>
             
         </div>
+        <LinkBack to='/blog' text='Back'></LinkBack>
       </div>
 
        

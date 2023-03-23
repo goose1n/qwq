@@ -1,0 +1,41 @@
+@font-face {
+    font-family: OS-Regular;
+    src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(./public/fonts/Roboto-Medium.ttf);
+  }
+@font-face {
+    font-family: Roboto-Black;
+    src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: OS-SemiBold;
+    src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+
+.link{
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #274C5B;
+    border: 1px solid #2d88b6;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+.linkText{
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: #274C5B;
+font-family: OS-Regular;
+color: aliceblue;
+}
