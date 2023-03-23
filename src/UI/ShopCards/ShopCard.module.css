@@ -1,0 +1,53 @@
+@font-face {
+    font-family: OS-Regular;
+    src: url(./public/fonts/OpenSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: Roboto-Bold;
+    src: url(./public/fonts/Roboto-Bold.ttf);
+  }
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url(./public/fonts/Roboto-Medium.ttf);
+  }
+  @font-face {
+    font-family: Roboto-Black;
+    src: url(./public/fonts/Roboto-Black.ttf);
+  }
+  @font-face {
+    font-family: OS-SemiBold;
+    src: url(./public/fonts/OpenSans-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Yellowtail;
+    src: url(./public/fonts/Yellowtail-Regular.ttf);
+  }
+
+.card {
+  width: 335px;
+  height: 483px;
+  background: #f9f8f8;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 31px;
+  width: fit-content;
+  padding: 5px 20px;
+  background: #274c5b;
+  border-radius: 8px;
+  font-family: OS-SemiBold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
