@@ -1,5 +1,6 @@
 import React from "react";
 import BlueBtn from "../../UI/BlueBtn/BlueBtn";
+import ShopCard from "../../UI/ShopCards/ShopCard";
 import SubBlock from "../../UI/SubBlock/SubBlock";
 import YellowBtn from "../../UI/YellowBtn/YellowBtn";
 import styles from "./Home.module.css";
@@ -13,7 +14,7 @@ const Home = () => {
           <h1 className={styles.firstTitle}>
             Choose the best healthier way of life
           </h1>
-          <YellowBtn text="Explore Now"/>
+          <YellowBtn text="Explore Now" />
         </div>
       </div>
       <div className={styles.homeSecond}>
@@ -56,22 +57,33 @@ const Home = () => {
             </div>
             <div className={styles.thirdBlock_text}>
               <h1>Organic Foods Only</h1>
-              <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+              <p>
+                Simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum
+              </p>
             </div>
           </div>
           <div className={styles.thirdBlock}>
             <div className={styles.thirdBlock_img}>
-            <img src="./public/imgProj/icon/Mailbox.png" alt="" />
+              <img src="./public/imgProj/icon/Mailbox.png" alt="" />
             </div>
             <div className={styles.thirdBlock_text}>
               <h1>Quality Standards</h1>
-              <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+              <p>
+                Simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum
+              </p>
             </div>
           </div>
-          <BlueBtn text="Shop Now"/>
+          <BlueBtn text="Shop Now" />
         </div>
       </div>
       <div className={styles.fourthCont}>
+        <p className={styles.yellow}>Categories </p>
+        <h1 className={styles.fourthTitle}>Our Products</h1>
+        <div className={styles.fourthCards}>
+          <ShopCard category="fruit"/>
+        </div>
       </div>
       <SubBlock />
     </div>
