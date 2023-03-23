@@ -6,7 +6,6 @@ import BlogCard from "./BlogCard/BlogCard";
 const Blog = () => {
   return (
     <div>
-      <h1>Hello World</h1>
       <div className={styles.blogBanner}>
         <img className={styles.blogPattern} src="./public/ImgProj/banners/PatternsBlog.png" alt=""/>
         <h1 className={styles.blogTitle}>Recent News</h1>
