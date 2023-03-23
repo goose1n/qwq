@@ -13,7 +13,7 @@ import SerSin from './Pages/ServiceSingle/SerSin';
 import Pass from './Pages/PasswordProtect/Pass';
 import Service from './Pages/Service/Service'
 import Blog from './Pages/Blog/Blog';
-import BloSin from './Pages/BlogSingle/BloSin';
+import BlogSingle3 from './Pages/BlogSingle3/BlogSingle3';
 import ShopSingle from './Pages/ShopSingle/ShopSingle';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import PorSin from './Pages/PortfolioSingle/PorSin';
@@ -43,7 +43,7 @@ function App() {
         <Route path='/portfoliosingle' element={<PorSin/>} />
         <Route path='/changelog' element={<Change/>} />
         <Route path='/contact' element={<Contact/>} />
-        <Route path='/blogsingle' element={<BloSin/>}/>
+        <Route path='/BlogSingle3' element={<BlogSingle3/>}/>
       </Routes>
       <Footer/>
     </Layout>
