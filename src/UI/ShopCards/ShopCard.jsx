@@ -5,6 +5,7 @@ const ShopCard = ({category, img, name, before, cost}) => {
   return (
     <div className={styles.card}>
         <div className={styles.category}>{category}</div>
+        <img className={styles.img} src={img} alt="" />
     </div>
   )
 }

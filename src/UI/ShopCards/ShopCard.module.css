@@ -24,13 +24,11 @@
   }
 
 .card {
-  width: 335px;
-  height: 483px;
   background: #f9f8f8;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 20px;
 }
 
 .category {
@@ -50,4 +48,8 @@
   line-height: 20px;
   text-align: center;
   color: #ffffff;
+}
+
+.img{
+    background-color: #f9f8f8;
 }

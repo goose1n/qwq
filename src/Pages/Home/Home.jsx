@@ -82,7 +82,7 @@ const Home = () => {
         <p className={styles.yellow}>Categories </p>
         <h1 className={styles.fourthTitle}>Our Products</h1>
         <div className={styles.fourthCards}>
-          <ShopCard category="fruit"/>
+          <ShopCard category="fruit" img="./public/imgProj/photos/broccoli.png"/>
         </div>
       </div>
       <SubBlock />
