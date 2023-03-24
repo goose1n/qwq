@@ -130,6 +130,8 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+  padding: 100px;
+  margin-right: 55px;
 }
 .sersin_button{
   display: flex;
@@ -152,6 +154,7 @@
 
 }
 .text_sersin{
-  color:#274C;
+  color: 
+  #274C5B;
   font-size: 25px;
 }
