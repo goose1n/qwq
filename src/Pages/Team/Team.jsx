@@ -1,4 +1,5 @@
 import React from "react";
+import PeopleCard from "../../UI/PeopleCard/PeopleCard";
 import SubBlock from "../../UI/SubBlock/SubBlock";
 import styles from "./Team.module.css";
 
@@ -25,205 +26,41 @@ const Team = () => {
       </div>
 
       <div className={styles.teamGrid}>
-        <div className={styles.gridteam}>
-          <img
-            className={styles.teamGridImg}
-            src="./public/ImgProj/photos/Bacardo.jpg"
-            alt=""
-          />
-          <h3 className={styles.teamName}>Giovani Bacardo</h3>
-          <div className={styles.nameiconteam}>
-            <h3 className={styles.proffTeam}>Farmer</h3>
-            <a
-              className={styles.dd}
-              target="_blank"
-              href="https://www.facebook.com/index.php"
-            >
-              <img
-                className={styles.iconfot}
-                src="./public/ImgProj/icon/Fb.png "
-                alt=""
-              />
-              <a target="_blank" href="https://twitter.com/i/flow/login">
-                <img
-                  className={styles.iconfot}
-                  src="./public/ImgProj/icon/Twiter.png"
-                  alt=""
-                />
-              </a>
-            </a>
-          </div>
-        </div>
-        <div className={styles.gridteam}>
-          <img
-            className={styles.teamGridImg}
-            src="./public/ImgProj/photos/Loreno.jpg"
-            alt=""
-          />
-          <h3 className={styles.teamName}>Marianne Loreno</h3>
-          <div className={styles.nameiconteam}>
-            <h3 className={styles.proffTeam}>Designer</h3>
-            <a
-              className={styles.dd}
-              target="_blank"
-              href="https://www.facebook.com/index.php"
-            >
-              <a target="_blank" href="https://www.instagram.com/">
-                <img
-                  className={styles.iconfot}
-                  src="./public/ImgProj/icon/Insta.png"
-                  alt=""
-                />
-              </a>
-              <img
-                className={styles.iconfot}
-                src="./public/ImgProj/icon/Fb.png "
-                alt=""
-              />
-              <a target="_blank" href="https://twitter.com/i/flow/login">
-                <img
-                  className={styles.iconfot}
-                  src="./public/ImgProj/icon/Twiter.png"
-                  alt=""
-                />
-              </a>
-            </a>
-          </div>
-        </div>
-        <div className={styles.gridteam}>
-          <img
-            className={styles.teamGridImg}
-            src="./public/ImgProj/photos/Pelore.jpg"
-            alt=""
-          />
-          <h3 className={styles.teamName}>Riga Pelore</h3>
-          <div className={styles.nameiconteam}>
-            <h3 className={styles.proffTeam}>Farmer</h3>
-            <a
-              className={styles.dd}
-              target="_blank"
-              href="https://www.facebook.com/index.php"
-            >
-              <a target="_blank" href="https://www.instagram.com/">
-                <img
-                  className={styles.iconfot}
-                  src="./public/ImgProj/icon/Insta.png"
-                  alt=""
-                />
-              </a>
-              <img
-                className={styles.iconfot}
-                src="./public/ImgProj/icon/Fb.png "
-                alt=""
-              />
-              <a target="_blank" href="https://twitter.com/i/flow/login">
-                <img
-                  className={styles.iconfot}
-                  src="./public/ImgProj/icon/Twiter.png"
-                  alt=""
-                />
-              </a>
-            </a>
-          </div>
-        </div>
-
-        <div className={styles.gridteam}>
-          <img
-            className={styles.teamGridImg}
-            src="./public/ImgProj/photos/Knightley.jpg"
-            alt=""
-          />
-          <h3 className={styles.teamName}>Keira Knightley</h3>
-          <div className={styles.nameiconteam}>
-            <h3 className={styles.proffTeam}>Farmer</h3>
-            <a
-              className={styles.dd}
-              target="_blank"
-              href="https://www.facebook.com/index.php"
-            >
-              <img
-                className={styles.iconfot}
-                src="./public/ImgProj/icon/Fb.png "
-                alt=""
-              />
-              <img
-                className={styles.iconfot}
-                src="./public/ImgProj/icon/Twiter.png"
-                alt=""
-              />
-            </a>
-          </div>
-        </div>
-        <div className={styles.gridteam}>
-          <img
-            className={styles.teamGridImg}
-            src="./public/ImgProj/photos/Lawrence.jpg"
-            alt=""
-          />
-          <h3 className={styles.teamName}>Scott Lawrence</h3>
-          <div className={styles.nameiconteam}>
-            <h3 className={styles.proffTeam}>Designer</h3>
-            <a
-              className={styles.dd}
-              target="_blank"
-              href="https://www.facebook.com/index.php"
-            >
-              <a target="_blank" href="https://www.instagram.com/">
-                <img
-                  className={styles.iconfot}
-                  src="./public/ImgProj/icon/Insta.png"
-                  alt=""
-                />
-              </a>
-              <img
-                className={styles.iconfot}
-                src="./public/ImgProj/icon/Fb.png "
-                alt=""
-              />
-              <a target="_blank" href="https://twitter.com/i/flow/login">
-                <img
-                  className={styles.iconfot}
-                  src="./public/ImgProj/icon/Twiter.png"
-                  alt=""
-                />
-              </a>
-            </a>
-          </div>
-        </div>
-        <div className={styles.gridteam}>
-          <img
-            className={styles.teamGridImg}
-            src="./public/ImgProj/photos/Allen.jpg"
-            alt=""
-          />
-          <h3 className={styles.teamName}>Karen Allen</h3>
-          <div className={styles.nameiconteam}>
-            <h3 className={styles.proffTeam}>Farmer</h3>
-            <a
-              className={styles.dd}
-              target="_blank"
-              href="https://www.facebook.com/index.php"
-            >
-              <img
-                className={styles.iconfot}
-                src="./public/ImgProj/icon/Insta.png"
-                alt=""
-              />
-              <img
-                className={styles.iconfot}
-                src="./public/ImgProj/icon/Fb.png "
-                alt=""
-              />
-              <a target="_blank" href="https://twitter.com/i/flow/login">
-                <img
-                  className={styles.iconfot}
-                  src="./public/ImgProj/icon/Twiter.png"
-                  alt=""
-                />
-              </a>
-            </a>
-          </div>
-        </div>
+       <PeopleCard img="./public\ImgProj\photos\Bacardo.jpg"
+            name="Giovani Bacardo"
+            work="Farmer"
+            face=".\public\ImgProj\icon\Fb.png"
+            twit=".\public\ImgProj\icon\Twiter.png"/>
+       <PeopleCard img="./public\ImgProj\photos\Loreno.jpg"
+          name="Marianne Loreno"
+          work="Designer"
+          inst=".\public\ImgProj\icon\Insta.png"
+          face=".\public\ImgProj\icon\Fb.png"
+          twit=".\public\ImgProj\icon\Twiter.png"/>
+       <PeopleCard img="./public\ImgProj\photos\Pelore.jpg"
+          name="Riga Pelore"
+          work="Farmer"
+          inst=".\public\ImgProj\icon\Insta.png"
+          face=".\public\ImgProj\icon\Fb.png"
+          twit=".\public\ImgProj\icon\Twiter.png"/>
+       <PeopleCard img="./public\ImgProj\photos\Knightley.jpg"
+          name="Keira Knightley"
+          work="Farmer"
+          face=".\public\ImgProj\icon\Fb.png"
+          twit=".\public\ImgProj\icon\Twiter.png"/>
+       <PeopleCard img="./public\ImgProj\photos\Lawrence.jpg"
+          name="Scott Lawrence"
+          work="Designer"
+          inst=".\public\ImgProj\icon\Insta.png"
+          face=".\public\ImgProj\icon\Fb.png"
+          twit=".\public\ImgProj\icon\Twiter.png"/>
+       <PeopleCard img="./public\ImgProj\photos\Allen.jpg"
+          name="Karen Allen"
+          work="Farmer"
+          inst=".\public\ImgProj\icon\Insta.png"
+          face=".\public\ImgProj\icon\Fb.png"
+          twit=".\public\ImgProj\icon\Twiter.png"/>
+      
       </div>
 
       <SubBlock />
