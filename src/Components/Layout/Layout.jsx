@@ -3,7 +3,9 @@ import styles from './Layout.module.css'
 
 const Layout = ({children}) => {
   return (
-    <main>{children}</main>
+    <main className={styles.main}>
+      {children}
+      </main>
   )
 }
 
