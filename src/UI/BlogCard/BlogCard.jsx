@@ -8,7 +8,10 @@ const BlogCard = (props) => {
  
       <div className={styles.img}>
         <img className={styles.bcgImg} src={props.img} alt="" />
-        <div className={styles.data}>{props.data}</div>
+        <div className={styles.data}>
+          <div>25</div>
+          <div>Nov</div>
+        </div>
       </div>
       <div className={styles.aCard}>
         <div className={styles.person}>
@@ -17,9 +20,9 @@ const BlogCard = (props) => {
         </div>
         <h2 className={styles.title}>{props.title}</h2>
         <p className={styles.text}>{props.text}</p>
-        <NavLink className={styles.link} to='/BlogSingle'>
-        <div className={styles.linkText}>Read More</div>
-        <img className={styles.linkArrow} src="./public/ImgProj/icon/Aerrow.png" alt="" />
+        <NavLink className={styles.link} to={props.to}>
+        <div className={styles.linkText}>Read more</div>
+        <img className={styles.linkArrow} src="./public/ImgProj/icon/right-arrow.png" alt="" />
         </NavLink>
       </div>
       
