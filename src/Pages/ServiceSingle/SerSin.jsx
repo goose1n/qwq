@@ -41,10 +41,20 @@ const SerSin = () => {
         <p className={styles.P_SerSin}>It is a long established fact that a reader will be distracted by the readable content of a page when looking a <br /> layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to <br /> using 'Content here, content here', making it look like readable English.</p>
         </div>    
 
-        <div className={styles.SerSin_Button}>
-          
-        </div>
-    
+         <div className={styles.SerSinButton}>
+          <div className={styles.sersin_button}>
+            <div className={styles.elips}>
+              <h1 className={styles.number_sersin}>01</h1>
+            </div>
+            <h1 className={styles.text_sersin}>Best quality support</h1>
+          </div>
+          <div className={styles.sersin_button}>
+          <div className={styles.elips}>
+              <h1 className={styles.number_sersin}>02</h1>
+            </div>
+            <h1 className={styles.text_sersin}>Money back guarantee</h1>
+          </div>
+         </div>
     
     <SubBlock/> </div>
   )

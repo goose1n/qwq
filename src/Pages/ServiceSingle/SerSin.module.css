@@ -125,8 +125,33 @@
   color: #274C5B;
   margin-top: 20px;
 }
-.SerSin_Button{
-  width: 250px;
-  height: 50px;
-  background: blueviolet;
+.SerSinButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.sersin_button{
+  display: flex;
+}
+.elips{
+  padding: 12px;
+  background:#7EB693;
+  border-radius: 50%;
+  color: white;
+}
+.sersin_button{
+  background:
+  #F9F8F8;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+.text_sersin{
+  color:#274C;
+  font-size: 25px;
 }
