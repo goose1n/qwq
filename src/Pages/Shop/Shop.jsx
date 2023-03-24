@@ -4,7 +4,7 @@ import SubBlock from "../../UI/SubBlock/SubBlock";
 const Shop = () => {
   return (
     <div>
-      
+      <SubBlock/>
        <SubBlock />
     </div>
   );
