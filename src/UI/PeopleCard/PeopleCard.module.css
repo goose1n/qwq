@@ -1,0 +1,46 @@
+
+  .gridteam {
+    width: 280px;
+    height: 400px;
+    background: #f9f8f8;
+    border-radius: 20px;
+    transition: 0.8s
+  }
+  .teamGridImg {
+    width: 280px;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .teamName {
+    color: #274c5b;
+    font-family: Roboto-Black;
+    margin-top: 10px;
+  }
+
+  .proffTeam {
+    color: #7eb693;
+    font-family: Yellowtail;
+    font-size: 20px;
+  }
+ 
+  .gridteam:hover{
+    transition: 0.8s;
+    background: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(30, 26, 26, 0.5);
+    transform: scale(0.95);
+  }
+  .block_icon{
+    display: flex;
+    justify-content: space-around;
+  }
+  .social{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .faces{
+    margin-right: 8px;
+  }
