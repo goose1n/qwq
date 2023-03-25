@@ -18,7 +18,7 @@ const BlogCard = (props) => {
           <img className={styles.icon} src="./public/ImgProj/icon/user.png" alt=""/>
           <h3 className={styles.personName}>{props.name}</h3>
         </div>
-        <h2 className={styles.title}>{props.title}</h2>
+        <h1 className={styles.title}>{props.title}</h1>
         <p className={styles.text}>{props.text}</p>
         <NavLink className={styles.link} to={props.to}>
         <div className={styles.linkText}>Read more</div>
