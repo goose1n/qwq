@@ -1,5 +1,4 @@
 import React from "react";
-import ShopCard from "../../UI/ShopCards/ShopCard";
 import SubBlock from "../../UI/SubBlock/SubBlock";
 import styles from './Shop.module.css'
 
@@ -7,9 +6,7 @@ const Shop = () => {
   return (
     <div>
 
-      <div className={styles.bannerShop}>
-        <h1>Shop</h1>
-      </div>
+      <div className={styles.bannerShop}></div>
 
       <div className={styles.contShop}>
         <div className={styles.fourthCards}>
