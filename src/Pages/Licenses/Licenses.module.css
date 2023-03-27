@@ -27,7 +27,7 @@
 }
 
 .licBlock {
-  background-image: url(./public/ImgProj/lic.png);
+  background-image: url(./public/ImgProj/banners/lic.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
