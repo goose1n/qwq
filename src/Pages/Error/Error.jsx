@@ -13,7 +13,7 @@ const Error = () => {
         />
         <h1 className={styles.errorTitle}>Page not found</h1>
         <p className={styles.errorSubtitle}>
-          The page you are looking for doesn't exist or has been moved
+          The page you are looking for doesn't exist or has been moved..
         </p>
         <div className={styles.errorButton}>
           <a className={styles.errorLink} href="/">
