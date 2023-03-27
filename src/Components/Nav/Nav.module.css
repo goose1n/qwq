@@ -65,3 +65,9 @@
   display: flex;
   margin-left: 310px;
 }
+
+.counter{
+  padding: 10px 40px;
+  border-radius: 30px;
+  background-color: rgb(155, 155, 223);
+}
