@@ -7,7 +7,9 @@ const Shop = () => {
   return (
     <div>
 
-      <div className={styles.bannerShop}></div>
+      <div className={styles.bannerShop}>
+        <h1>Shop</h1>
+      </div>
 
       <div className={styles.contShop}>
         <div className={styles.fourthCards}>
