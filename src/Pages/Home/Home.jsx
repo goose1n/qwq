@@ -1,6 +1,6 @@
 import React from "react";
 import BlueBtn from "../../UI/BlueBtn/BlueBtn";
-import ShopCard from "../../UI/ShopCards/ShopCard";
+import ShopCard from "../../UI/ShopCards/Shop_Card";
 import SubBlock from "../../UI/SubBlock/SubBlock";
 import YellowBtn from "../../UI/YellowBtn/YellowBtn";
 import styles from "./Home.module.css";
