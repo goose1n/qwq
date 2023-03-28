@@ -4,6 +4,7 @@ import ShopCard from "../../UI/ShopCards/Shop_Card";
 import SubBlock from "../../UI/SubBlock/SubBlock";
 import YellowBtn from "../../UI/YellowBtn/YellowBtn";
 import styles from "./Home.module.css";
+import BlogCard from "../../UI/BlogCard/BlogCard";
 
 const Home = () => {
   return (
@@ -140,7 +141,131 @@ const Home = () => {
           />
         </div>
         <div>
-          <BlueBtn text="Load More"/>
+          <BlueBtn text="Load More" />
+        </div>
+      </div>
+      <div className={styles.fifthCont}>
+        <div className={styles.fifthText}>
+          <div className={styles.fifthText_left}>
+            <p className={styles.yellow}>Offer</p>
+            <h1 className={styles.fifthText_left_title}>
+              We Offer Organic For You
+            </h1>
+          </div>
+          <div className={styles.fifthText_right}>
+            <YellowBtn text="View All Product" />
+          </div>
+        </div>
+        <div className={styles.fifthBlocks}>
+          <ShopCard
+            category="Vegetable"
+            img="./public/imgProj/photos/broccoli.png"
+            name="Mung Bean"
+            before="$20.00"
+            cost="$11.00"
+          />
+          <ShopCard
+            category="Nuts"
+            img="./public/imgProj/photos/nuts.png"
+            name="Brown Hazelnut"
+            before="$20.00"
+            cost="$12.00"
+          />
+          <ShopCard
+            category="Vegetable"
+            img="./public/imgProj/photos/onion.png"
+            name="Onion"
+            before="$20.00"
+            cost="$17.00"
+          />
+          <ShopCard
+            category="Vegetable"
+            img="./public/imgProj/photos/cabbage.png"
+            name="Cabbage"
+            before="$20.00"
+            cost="$17.00"
+          />
+        </div>
+      </div>
+      <div className={styles.sixthCont}>
+        <div className={styles.sixthText}>
+          <p className={styles.yellow}>Eco Friendly</p>
+          <h1 className={styles.sixthTitle}>
+            Econis is a Friendly Organic Store
+          </h1>
+          <div className={styles.sixthText_block}>
+            <h1 className={styles.sixthText_blockTitle}>
+              Start with Our Company First
+            </h1>
+            <p className={styles.sixthText_blockSub}>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptat
+              accusantium doloremque laudantium. Sed ut perspiciatis.
+            </p>
+          </div>
+          <div className={styles.sixthText_block}>
+            <h1 className={styles.sixthText_blockTitle}>
+              Learn How to Grow Yourself
+            </h1>
+            <p className={styles.sixthText_blockSub}>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptat
+              accusantium doloremque laudantium. Sed ut perspiciatis.
+            </p>
+          </div>
+          <div className={styles.sixthText_block}>
+            <h1 className={styles.sixthText_blockTitle}>
+              Farming Strategies of Today
+            </h1>
+            <p className={styles.sixthText_blockSub}>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptat
+              accusantium doloremque laudantium. Sed ut perspiciatis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.seventhCont}>
+        <div className={styles.seventhBlock_first}>
+          <div className={styles.seventhBlock_block}>
+            <p className={styles.seventhBlock_blockText}>Organic Juice</p>
+          </div>
+        </div>
+        <div className={styles.seventhBlock_second}>
+          <div className={styles.seventhBlock_block}>
+            <p className={styles.seventhBlock_blockText}>Organic Food</p>
+          </div>
+        </div>
+        <div className={styles.seventhBlock_third}>
+          <div className={styles.seventhBlock_block}>
+            <p className={styles.seventhBlock_blockText}>Nuts Cookis</p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.eighthCont}>
+        <div className={styles.eighthText}>
+          <div className={styles.eighthText_left}>
+            <p className={styles.yellow}>News</p>
+            <h1 className={styles.eighthTitle}>
+              Discover weekly content about organic food, & more
+            </h1>
+          </div>
+          <div className={styles.eighthText_right}>
+            <BlueBtn text="More News" />
+          </div>
+        </div>
+        <div className={styles.eighthBlocks}>
+          <BlogCard
+            img="./public/ImgProj/photos/blogRoccah.png"
+            name="By Rachi Card"
+            title="The Benefits of Vitamin D & How to Get It"
+            text="Simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+            to="/BlogSingle1"
+          ></BlogCard>
+          <BlogCard
+            img="./public/ImgProj/photos/blogTomato.png"
+            name="By Rachi Card"
+            title="Our Favorite Summertime Tomato"
+            text="Simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+            to="/BlogSingle2"
+          ></BlogCard>
         </div>
       </div>
       <SubBlock />

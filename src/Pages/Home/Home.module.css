@@ -228,8 +228,186 @@
   color: #274c5b;
 }
 
-.fourthCards{
+.fourthCards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
+}
+
+.fifthCont {
+  background: #274c5b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  margin-bottom: 30px;
+  gap: 50px;
+}
+
+.fifthText {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 450px;
+}
+
+.fifthText_left_title {
+  font-family: Roboto-Black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.fifthBlocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sixthCont {
+  background-image: url(./public/imgProj/photos/Eco.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  margin: 30px 0;
+  padding: 70px 0;
+}
+
+.sixthText {
+  background-color: #fff;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 0 50px 80px;
+  border-radius: 10%;
+  margin-left: 46%;
+}
+
+.sixthTitle {
+  font-family: Roboto-Black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #274c5b;
+  width: 600px;
+}
+
+.sixthText_blockTitle {
+  font-family: Roboto-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #274c5b;
+}
+
+.sixthText_blockSub {
+  font-family: OS-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165.4%;
+  color: #525c60;
+  width: 635px;
+}
+
+.seventhCont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f1f8f4;
+  padding: 50px 0;
+}
+
+.seventhBlock_first {
+  background-image: url(./public/imgProj/photos/seven1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 190px 150px;
+}
+.seventhBlock_second {
+  background-image: url(./public/imgProj/photos/seven2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 190px 150px;
+  align-items: center;
+}
+.seventhBlock_third {
+  background-image: url(./public/imgProj/photos/seven3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 190px 150px;
+  align-items: center;
+}
+
+.seventhBlock_block {
+  width: 250px;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.seventhBlock_blockText {
+  font-family: Roboto-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #274c5b;
+}
+
+.eighthCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+  margin: 50px 0 100px 0;
+}
+
+.eighthText {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* gap: 300px; */
+}
+
+.eighthText_right {
+  margin-top: 70px;
+}
+
+.eighthText_left{
+  gap: 10px;
+}
+
+.eighthTitle {
+  width: 702px;
+  font-family: Roboto-Black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 59px;
+  color: #274c5b;
+}
+
+.eighthBlocks{
+  display: flex;
+  gap: 100px;
 }
