@@ -319,8 +319,9 @@
 
 .seventhCont {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 40px;
   background: #f1f8f4;
   padding: 50px 0;
 }
