@@ -91,8 +91,7 @@ const Service = () => {
             Simply dummy text of the printing and typesetting industry. Lorem
             had ceased to been the industry's  standard dummy text ever since the{" "}
           </p>
-          <img
-            className={styles.serviceIMG}
+          <img className={styles.serviceIMG}
             src="./public/ImgProj/icon/Video Icon.png"
             alt=""
           />
