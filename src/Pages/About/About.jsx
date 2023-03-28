@@ -1,5 +1,6 @@
 import React from "react";
 import BlueBtn from "../../UI/BlueBtn/BlueBtn";
+import PeopleCard from "../../UI/PeopleCard/PeopleCard";
 import SubBlock from "../../UI/SubBlock/SubBlock";
 import styles from "./About.module.css";
 
@@ -137,75 +138,23 @@ const About = () => {
           </p>
         </div>
         <div className={styles.thirdBlocks}>
-          <div className={styles.thirdBlock_grey}>
-            <img
-              className={styles.thirdBlock_img}
-              src="./public/imgProj/photos/Bacardo.jpg"
-              alt=""
-            />
-            <div className={styles.thirdBlock_textIcons}>
-              <div className={styles.thirdBlock_text}>
-                <h1 className={styles.thirdBlock_text_name}>Giovani Bacardo</h1>
-                <p className={styles.thirdBlock_text_yellow}>Farmer</p>
-              </div>
-              <div className={styles.thirdBlock_icons}>
-                <a href="https://www.facebook.com/">
-                  <img src="./public/imgProj/icon/Fb.png" alt="" />
-                </a>
-                <a href="https://twitter.com/">
-                  <img src="./public/imgProj/icon/Twiter.png" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className={styles.thirdBlock_white}>
-            <img
-              className={styles.thirdBlock_img}
-              src="./public/imgProj/photos/Loreno.jpg"
-              alt=""
-            />
-            <div className={styles.thirdBlock_textIcons}>
-              <div className={styles.thirdBlock_text}>
-                <p className={styles.thirdBlock_text_name}>Marianne Loreno</p>
-                <p className={styles.thirdBlock_text_yellow}>Designer</p>
-              </div>
-              <div className={styles.thirdBlock_icons}>
-                <a href="https://www.instagram.com/">
-                  <img src="./public/imgProj/icon/Insta.png" alt="" />
-                </a>
-                <a href="https://www.facebook.com/">
-                  <img src="./public/imgProj/icon/Fb.png" alt="" />
-                </a>
-                <a href="https://twitter.com/">
-                  <img src="./public/imgProj/icon/Twiter.png" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className={styles.thirdBlock_grey}>
-            <img
-              className={styles.thirdBlock_img}
-              src="./public/imgProj/photos/Pelore.jpg"
-              alt=""
-            />
-            <div className={styles.thirdBlock_textIcons}>
-              <div className={styles.thirdBlock_text}>
-                <p className={styles.thirdBlock_text_name}>Riga Pelore</p>
-                <p className={styles.thirdBlock_text_yellow}>Farmer</p>
-              </div>
-              <div className={styles.thirdBlock_icons}>
-                <a href="https://www.instagram.com/">
-                  <img src="./public/imgProj/icon/Insta.png" alt="" />
-                </a>
-                <a href="https://www.facebook.com/">
-                  <img src="./public/imgProj/icon/Fb.png" alt="" />
-                </a>
-                <a href="https://twitter.com/">
-                  <img src="./public/imgProj/icon/Twiter.png" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
+        <PeopleCard img="./public\ImgProj\photos\Bacardo.jpg"
+            name="Giovani Bacardo"
+            work="Farmer"
+            face=".\public\ImgProj\icon\Fb.png"
+            twit=".\public\ImgProj\icon\Twiter.png"/>
+       <PeopleCard img="./public\ImgProj\photos\Loreno.jpg"
+          name="Marianne Loreno"
+          work="Designer"
+          inst=".\public\ImgProj\icon\Insta.png"
+          face=".\public\ImgProj\icon\Fb.png"
+          twit=".\public\ImgProj\icon\Twiter.png"/>
+       <PeopleCard img="./public\ImgProj\photos\Pelore.jpg"
+          name="Riga Pelore"
+          work="Farmer"
+          inst=".\public\ImgProj\icon\Insta.png"
+          face=".\public\ImgProj\icon\Fb.png"
+          twit=".\public\ImgProj\icon\Twiter.png"/>
         </div>
       </div>
       <div className={styles.aboutCont_fourth}>
@@ -231,6 +180,7 @@ const About = () => {
         </div>
       </div>
       <SubBlock />
+
     </div>
   );
 };

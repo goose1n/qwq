@@ -61,9 +61,10 @@
 .searchIcon{
   position: absolute;
   z-index: 10000;
-  width: 50px;
+  width: 45px;
   display: flex;
-  margin-left: 310px;
+  margin-left: 280px;
+  margin-top: 3px;
 }
 
 .counter{

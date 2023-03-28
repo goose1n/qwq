@@ -7,7 +7,7 @@ const Licenses = () => {
     <div className={styles.licensesCont}>
       <div className={styles.licBlock}>
         <h1 className={styles.licBlock_title}>Licenses</h1>
-        <img className={styles.licImg} src="./public/ImgProj/lic1.png" alt="" />
+        <img className={styles.licImg} src="./public/ImgProj/banners/lic1.png" alt="" />
       </div>
       <div className={styles.licBlock_text}>
         <div className={styles.licBlock_subtitle}>

@@ -45,4 +45,4 @@ const PeopleCard = ({img, name, work, inst, face, twit}) => {
   )
 }
 
-export default PeopleCard
+export default PeopleCard;
