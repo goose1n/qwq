@@ -1,0 +1,77 @@
+@font-face {
+  font-family: OS-Regular;
+  src: url(./public/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./public/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(./public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(./public/fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: OS-SemiBold;
+  src: url(./public/fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: Yellowtail;
+  src: url(./public/fonts/Yellowtail-Regular.ttf);
+}
+
+.PortfolioCard_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width:fit-content;
+}
+
+.img {
+  border-radius: 30px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.name {
+  font-family: Roboto-Black;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 29px;
+  color: #274c5b;
+}
+
+.work {
+  font-family: Yellowtail;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #7eb693;
+}
+
+.opacity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    opacity: 0;  
+    transition: 0.8s;
+    padding: 170px;
+    background: rgba(255, 255, 255, 0.91);
+    z-index: 2;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.opacity:hover{
+    transition: 0.8s;
+    opacity: 100;
+}
