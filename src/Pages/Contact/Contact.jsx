@@ -132,7 +132,9 @@ const Contact = () => {
         <input type="text" placeholder="hello there,i would like to talk about how to..."  className={styles.inputmass}/>
        </div>
        </div>
-      
+       <div className={styles.butt}>
+      <button className={styles.Contact_Button}>Send Message</button>
+      </div>
       <SubBlock />
     </div>
   );

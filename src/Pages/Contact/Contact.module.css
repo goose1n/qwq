@@ -43,8 +43,7 @@
   justify-content: center;
   align-items: center;
   padding: 70px;
-  gap: 50px
-  ;
+  gap: 50px;
 }
 .Contact_title1 img {
   width: 450px;
@@ -71,11 +70,10 @@
   display: flex;
   width: 320px;
   height: 90px;
- background: white;
+  background: white;
   justify-content: center;
   align-items: center;
-  border: 1px solid 
-  #EEEEEE;
+  border: 1px solid #eeeeee;
   gap: 20px;
   border-radius: 15px;
 }
@@ -83,31 +81,27 @@
   color: #274c5b;
   font-size: 25px;
 }
-.Contact_Massege img{
-    width: 80px;
-    background: 
-    #F4F4F4;
-    border-radius: 10px;
-    padding: 20px;
+.Contact_Massege img {
+  width: 80px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
 }
-.img_contact{
-    width: 50px;
+.img_contact {
+  width: 50px;
 }
 
-.blockicon{
+.blockicon {
   display: flex;
   gap: 30px;
- 
-  
 }
-.blockicon img{
+.blockicon img {
   width: 30px;
   margin-top: 20px;
   margin-left: 20px;
- 
 }
-.Contact_IMG_Block{
-  background-image: url(./public/ImgProj/banners/bcgContact2.jpg); 
+.Contact_IMG_Block {
+  background-image: url(./public/ImgProj/banners/bcgContact2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
@@ -116,87 +110,91 @@
   display: flex;
   justify-content: flex-end;
 }
-.Contact_img_block1{
+.Contact_img_block1 {
   background: white;
   width: 450px;
   margin-right: 50px;
-  border-radius: 15px; 
+  border-radius: 15px;
   padding: 25px;
-  
-
 }
-.nn{
+.nn {
   display: flex;
   justify-content: center;
 }
-.Contact_img_block1 h3{
-  color: #7EB693;
+.Contact_img_block1 h3 {
+  color: #7eb693;
   font-size: 25px;
   font-family: Yellowtail;
-
 }
-.Contact_img_block1 h1{
-  color: #274C5B;
+.Contact_img_block1 h1 {
+  color: #274c5b;
   font-size: 45px;
-  font-family:Roboto-Black ;
-  
-
+  font-family: Roboto-Black;
 }
-.Contact_img_block1 p{
-  color: #525C60;
+.Contact_img_block1 p {
+  color: #525c60;
   font-size: 18px;
   display: flex;
 }
-.Contact_location{
+.Contact_location {
   display: flex;
   padding: 20px;
 }
-.location_text h1, p{
-color: #525C60;
-font-size: 18px;
-font-family: Roboto-Medium;
+.location_text h1,
+p {
+  color: #525c60;
+  font-size: 18px;
+  font-family: Roboto-Medium;
 }
-.Contact_Input{
- display: flex;
- gap: 50px;
- justify-content: center;
+.Contact_Input {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
 }
-.inputCon{
+.inputCon {
   width: 450px;
-  height:60px;
+  height: 60px;
   border: 2px solid#7EB693;
   border-radius: 15px;
   padding: 20px;
-   color: #ABABAB;
+  color: #ababab;
 }
-.input_contact h1{
- font-size: 18px;
- color: #274C5B;
- font-family:Roboto-Black ;
- padding: 25px 0;
-
-
-}
-.Contact_MassegeInput h1{
+.input_contact h1 {
   font-size: 18px;
-  color: #274C5B;
-  font-family:Roboto-Black ;
+  color: #274c5b;
+  font-family: Roboto-Black;
   padding: 25px 0;
- 
 }
-.inputmass{
+.Contact_MassegeInput h1 {
+  font-size: 18px;
+  color: #274c5b;
+  font-family: Roboto-Black;
+  padding: 25px 0;
+}
+.inputmass {
   width: 950px;
   height: 150px;
   border-radius: 15px;
   border: 2px solid#7EB693;
   padding: 20px;
-
-  
 }
-.input_block{
+.input_block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 50px 0;
+}
+.Contact_Button {
+  width: 150px;
+  height: 50px;
+  background: #274c5b;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-left: 285px;
+  font-family: Roboto-Black;
+}
+.butt{
+  padding-bottom: 50px;
 }
