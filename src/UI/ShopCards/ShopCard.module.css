@@ -34,6 +34,7 @@
   flex-direction: column;
   gap: 15px;
   padding: 30px 40px;
+  z-index: 1;
 }
 
 .category {
@@ -58,6 +59,7 @@
 
 .img {
   width: 100%;
+  z-index: 1;
 }
 
 .imgCont{
@@ -104,4 +106,25 @@
   line-height: 23px;
   text-align: center;
   color: #274c5b;
+}
+
+.opacity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 0;  
+  transition: 0.8s;
+  padding: 103px;
+  background: rgba(255, 255, 255, 0.91);
+  z-index: 2;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 45px;
+}
+
+.opacity:hover {
+  transition: 0.8s;
+  opacity: 100;
+  z-index: 2222;
 }

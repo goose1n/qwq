@@ -21,7 +21,10 @@ const Nav = () => {
         <img className={styles.searchIcon} src="./public/imgProj/icon/Search.png" alt="" />
         <input className={styles.inputText} maxLength="25" type="text" />
       </div>
-      <button className={styles.counter}>cart</button>
+      <div className={styles.cartCont}>
+        <img src="./public/imgProj/icon/Cart Icon.png" alt="" />
+        <p>Cart <span>()</span></p>
+      </div>
     </nav>
   );
 };
