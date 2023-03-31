@@ -16,7 +16,7 @@ const Error = () => {
         <p className={styles.errorSubtitle}>
           The page you are looking for doesn't exist or has been moved..
         </p>
-        <BlueBtn text="Go To Homepage"/>
+        <BlueBtn to="/" text="Go To Homepage"/>
       </div>
     </div>
   );
