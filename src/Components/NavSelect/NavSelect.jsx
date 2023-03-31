@@ -6,11 +6,11 @@ const NavSelect = () => {
     <div className={styles.select}>
   <select className={styles.standard_select}>
     <option value="Option 1" disabled>Pages</option>
-    <option value="Option 2">Home</option>
-    <option value="Option 3">About</option>
-    <option value="Option 4">Shop</option>
-    <option value="Option 5">Projects</option>
-    <option value="Option 6">News</option>
+    <option value="Option 2">Contact</option>
+    <option value="Option 3">Team</option>
+    <option value="Option 4">Portfolio</option>
+    <option value="Option 5">Licenses</option>
+    <option value="Option 6">Home</option>
   </select>
 </div>
   )

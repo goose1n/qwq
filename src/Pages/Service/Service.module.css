@@ -51,51 +51,50 @@
 }
 .ServiceH {
   text-align: center;
-  margin: 150px 0;
+  margin: 50px 0;
 }
 .serviceH {
   font-size: 35px;
   color: #7eb693;
   font-family: Yellowtail;
+
 }
-.BetterP{
-    font-size: 45px;
-    color: #274C5B;
-    font-family: Roboto-Black;
+.BetterP {
+  font-size: 45px;
+  color: #274c5b;
+  font-family: Roboto-Black;
 }
-.serviceBlockBig{
+.serviceBlockBig {
   display: flex;
   margin-top: -50px;
 }
 
-.block1{
+.block1 {
   display: block;
   text-align: end;
   gap: 70px;
 }
-.changeimg{
+.changeimg {
   width: 400px;
-  height: 600px;
-  margin-top: -90px;
+  height: 700px;
 }
-.block2{
+.block2 {
   margin-top: -22px;
-   gap: 70px;
-
+  gap: 70px;
 }
-.servicetextH{
+.servicetextH {
   font-size: 25px;
-  color: #274C5B;
+  color: #274c5b;
 }
-.servicetextP{
+.servicetextP {
   font-size: 18px;
-  color: #525C60;
+  color: #525c60;
 }
-.serviceB{
+.serviceB {
   gap: 70px;
 }
 
-.ButtonTextImg1{
+.ButtonTextImg1 {
   width: 200px;
   height: 70px;
   border-radius: 15px;
@@ -105,58 +104,53 @@
   align-items: center;
   font-size: 18px;
   gap: 5px;
-  color: #274C5B; 
+  color: #274c5b;
   font-family: Roboto-Bold;
   border: 1px solid #274c5b;
   margin: 40px 0;
-
+  cursor: pointer;
 }
-.servicefoto{
+.servicefoto {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  
+ 
 }
 
-.ButtonBlock1{
+.ButtonBlock1 {
   cursor: pointer;
 }
 
-.fotoservice{
+.fotoservice {
   background-image: url(./public/ImgProj/banners/bcgService.jpg);
   background-size: cover;
   padding: 300px 510px;
   gap: 50px;
-  
-
-
 }
-.serviceText{
+.serviceText {
   font-size: 30px;
   color: #7eb693;
   font-family: Yellowtail;
   text-align: center;
   height: 50px;
-  margin-top: -80px;
+  margin-top: -100px;
 
 }
-.servicesimply{
-
-  
-font-size: 17px;
-text-align: center;
+.servicesimply {
+  font-size: 17px;
+  text-align: center;
 }
-.serviceclean{
+.serviceclean {
   font-size: 45px;
-    color: #274C5B;
-    font-family: Roboto-Black;
+  color: #274c5b;
+  font-family: Roboto-Black;
   height: 70px;
-}
-.serviceIMG{
-  width: 90px;
- margin-left: 200px;
- margin-top: 150px;
+  padding: 10px;
 
+}
+.serviceIMG {
+  width: 90px;
+  margin-left: 200px;
+  margin-top: 150px;
 }

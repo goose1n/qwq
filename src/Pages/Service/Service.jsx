@@ -44,8 +44,8 @@ const Service = () => {
         <div className={styles.serviceimg}>
           <img
             className={styles.changeimg}
-            src="./public/ImgProj/photos/Photo (2).png"
-            alt=""
+            src="./public/ImgProj/photos/Photo (2).png" 
+            alt=""  
           />
         </div>
 
@@ -75,11 +75,11 @@ const Service = () => {
 
       <div className={styles.BlockButton1}>
         <div className={styles.ButtonBlock1}>
-          <h3 className={styles.ButtonTextImg1}>
-            {" "}
-            Explore Button
-            <img src="./public/imgProj/icon/Aerrow.png" alt="123" />
-          </h3>
+
+       <a href="/ServiceSingle"> <button className={styles.ButtonTextImg1}>Explore More <span><img src="./public/imgProj/icon/Aerrow.png" alt="123"  /></span></button></a>
+
+
+          
         </div>
       </div>
 
