@@ -77,6 +77,9 @@ const Footer = () => {
           <a className={styles.sylca} href="/changelog">
             Changelog
           </a>
+          <a className={styles.sylca} href="/service">
+            Service
+          </a>
         </div>
       </div>
     </div><hr />
