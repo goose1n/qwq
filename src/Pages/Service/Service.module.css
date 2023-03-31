@@ -57,6 +57,7 @@
   font-size: 35px;
   color: #7eb693;
   font-family: Yellowtail;
+
 }
 .BetterP {
   font-size: 45px;
@@ -107,6 +108,7 @@
   font-family: Roboto-Bold;
   border: 1px solid #274c5b;
   margin: 40px 0;
+  cursor: pointer;
 }
 .servicefoto {
   width: 100%;
@@ -132,7 +134,8 @@
   font-family: Yellowtail;
   text-align: center;
   height: 50px;
-  margin-top: -80px;
+  margin-top: -100px;
+
 }
 .servicesimply {
   font-size: 17px;
