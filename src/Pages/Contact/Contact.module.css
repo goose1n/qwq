@@ -194,7 +194,9 @@ p {
   border: none;
   margin-left: 285px;
   font-family: Roboto-Black;
+  cursor: pointer;
 }
 .butt{
   padding-bottom: 50px;
+  
 }
