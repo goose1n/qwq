@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useState} from "react";
 import { NavLink } from "react-router-dom";
 import Links from "../../UI/Links/Links";
 import Logo from "../../UI/Logo/Logo";
@@ -23,7 +23,7 @@ const Nav = () => {
       </div>
       <div className={styles.cartCont}>
         <img src="./public/imgProj/icon/Cart Icon.png" alt="" />
-        <p>Cart <span>()</span></p>
+        <p>Cart <span>(value)</span></p>
       </div>
     </nav>
   );

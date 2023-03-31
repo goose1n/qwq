@@ -38,7 +38,7 @@ const ShopSingle = () => {
           </p>
           <div className={styles.quantityCont}>
             <p className={styles.quantity}>Quantity :</p>
-            <input type="text" placeholder="1" />
+            <input type="text" />
             <BlueBtn text="Add To Cart" />
           </div>
         </div>
