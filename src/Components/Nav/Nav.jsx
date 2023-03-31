@@ -14,7 +14,7 @@ const Nav = () => {
         <Links className={styles.link} to="/about" text="About"/>
         <NavSelect/>
         <Links className={styles.link} to="/shop" text="Shop"/>
-        <Links className={styles.link} to="/service" text="Service"/>
+        <Links className={styles.link} to="/team" text="Team"/>
         <Links className={styles.link} to="/blog" text="News"/>
       </div>
       <div className={styles.inputText_Cont}>

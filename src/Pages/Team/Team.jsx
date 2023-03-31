@@ -26,41 +26,58 @@ const Team = () => {
       </div>
 
       <div className={styles.teamGrid}>
-       <PeopleCard img="./public\ImgProj\photos\Bacardo.jpg"
-            name="Giovani Bacardo"
-            work="Farmer"
-            face=".\public\ImgProj\icon\Fb.png"
-            twit=".\public\ImgProj\icon\Twiter.png"/>
-       <PeopleCard img="./public\ImgProj\photos\Loreno.jpg"
+        <PeopleCard
+          to="/portfolio"
+          img="./public\ImgProj\photos\Bacardo.jpg"
+          name="Giovani Bacardo"
+          work="Farmer"
+          face=".\public\ImgProj\icon\Fb.png"
+          twit=".\public\ImgProj\icon\Twiter.png"
+        />
+        <PeopleCard
+          img="./public\ImgProj\photos\Loreno.jpg"
+          to="/portfolio"
           name="Marianne Loreno"
           work="Designer"
           inst=".\public\ImgProj\icon\Insta.png"
           face=".\public\ImgProj\icon\Fb.png"
-          twit=".\public\ImgProj\icon\Twiter.png"/>
-       <PeopleCard img="./public\ImgProj\photos\Pelore.jpg"
+          twit=".\public\ImgProj\icon\Twiter.png"
+        />
+        <PeopleCard
+          img="./public\ImgProj\photos\Pelore.jpg"
           name="Riga Pelore"
+          to="/portfolio"
           work="Farmer"
           inst=".\public\ImgProj\icon\Insta.png"
           face=".\public\ImgProj\icon\Fb.png"
-          twit=".\public\ImgProj\icon\Twiter.png"/>
-       <PeopleCard img="./public\ImgProj\photos\Knightley.jpg"
+          twit=".\public\ImgProj\icon\Twiter.png"
+        />
+        <PeopleCard
+          img="./public\ImgProj\photos\Knightley.jpg"
           name="Keira Knightley"
+          to="/portfolio"
           work="Farmer"
           face=".\public\ImgProj\icon\Fb.png"
-          twit=".\public\ImgProj\icon\Twiter.png"/>
-       <PeopleCard img="./public\ImgProj\photos\Lawrence.jpg"
+          twit=".\public\ImgProj\icon\Twiter.png"
+        />
+        <PeopleCard
+          img="./public\ImgProj\photos\Lawrence.jpg"
           name="Scott Lawrence"
+          to="/portfolio"
           work="Designer"
           inst=".\public\ImgProj\icon\Insta.png"
           face=".\public\ImgProj\icon\Fb.png"
-          twit=".\public\ImgProj\icon\Twiter.png"/>
-       <PeopleCard img="./public\ImgProj\photos\Allen.jpg"
+          twit=".\public\ImgProj\icon\Twiter.png"
+        />
+        <PeopleCard
+          img="./public\ImgProj\photos\Allen.jpg"
           name="Karen Allen"
+          to="/portfolio"
           work="Farmer"
           inst=".\public\ImgProj\icon\Insta.png"
           face=".\public\ImgProj\icon\Fb.png"
-          twit=".\public\ImgProj\icon\Twiter.png"/>
-      
+          twit=".\public\ImgProj\icon\Twiter.png"
+        />
       </div>
 
       <SubBlock />
