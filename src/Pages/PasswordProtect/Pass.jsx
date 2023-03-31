@@ -1,6 +1,7 @@
 import React from "react";
 import SubBlock from "../../UI/SubBlock/SubBlock";
 import styles from "./Pass.module.css";
+import BlueBtn from "../../UI/BlueBtn/BlueBtn";
 
 const Pass = () => {
   return (
@@ -20,12 +21,7 @@ const Pass = () => {
         <div className={styles.passWindow_text}>
           <p className={styles.passWindow_text_title}>Password</p>
           <input className={styles.passWindow_text_input} type="text" placeholder="Enter Your Password"/>
-          <div className={styles.errorButton}>
-          <a className={styles.errorLink} href="/">
-            Send Now
-          </a>
-          <img src="./public/imgProj/icon/Aerrow.png" alt="123" />
-        </div>
+          <button className={styles.btn}>Send Now <span><img src="./public\ImgProj\icon\Aerrow.png" /></span></button>
         </div>
       </div>
       <SubBlock />

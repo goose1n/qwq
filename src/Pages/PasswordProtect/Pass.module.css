@@ -112,3 +112,22 @@
   text-decoration: none;
   outline: none;
 }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  font-family: Roboto-Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  background: #274C5B;
+  border-radius: 16px;
+  gap: 10px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}

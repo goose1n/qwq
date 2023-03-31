@@ -2,7 +2,6 @@ import {React, useState} from "react";
 import { NavLink } from "react-router-dom";
 import Links from "../../UI/Links/Links";
 import Logo from "../../UI/Logo/Logo";
-import NavSelect from "../NavSelect/NavSelect";
 import styles from "./Nav.module.css";
 
 const Nav = () => {
@@ -12,7 +11,7 @@ const Nav = () => {
       <div className={styles.navLinks}>
         <Links className={styles.link} to="/" text="Home"/>
         <Links className={styles.link} to="/about" text="About"/>
-        <NavSelect/>
+        <Links className={styles.link} to="/contact" text="Contact"/>
         <Links className={styles.link} to="/shop" text="Shop"/>
         <Links className={styles.link} to="/team" text="Team"/>
         <Links className={styles.link} to="/blog" text="News"/>
