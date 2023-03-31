@@ -334,7 +334,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 190px 150px;
+  width: fit-content;
+  padding: 150px 100px;
 }
 .seventhBlock_second {
   background-image: url(./public/imgProj/photos/seven2.png);
@@ -342,8 +343,9 @@
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  padding: 190px 150px;
+  padding: 150px 100px;
   align-items: center;
+  width: fit-content;
 }
 .seventhBlock_third {
   background-image: url(./public/imgProj/photos/seven3.png);
@@ -351,7 +353,8 @@
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  padding: 190px 150px;
+  padding: 150px 100px;
+  width: fit-content;
   align-items: center;
 }
 
