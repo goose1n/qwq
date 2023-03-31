@@ -97,7 +97,7 @@ const Shop = () => {
           />
         </div>
       </div>
-      <SubBlock />
+       <SubBlock />
     </div>
   );
 };
