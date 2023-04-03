@@ -10,9 +10,9 @@ const Footer = () => {
         <div className={styles.blockleft}>
           <h1 className={styles.footcontact}>Contact Us</h1>
           <h4 className={styles.email}>Email</h4>
-          <a href="#">needhelp@Organia.com</a>
+          <a href="https://www.google.com/intl/ru/gmail/about/">needhelp@Organia.com</a>
           <h4 className={styles.email}>Phone</h4>
-          <a href="#">666 888 888</a>
+          <a href="tel:666888888">666 888 888</a>
           <h4 className={styles.email}>Address</h4>
           <a href="#">88 road, boklyn street, USA</a>
         </div>
