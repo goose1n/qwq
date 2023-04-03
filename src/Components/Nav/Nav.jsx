@@ -22,7 +22,7 @@ const Nav = () => {
       </div>
       <div className={styles.cartCont}>
         <img src="./public/imgProj/icon/Cart Icon.png" alt="" />
-        <p>Cart <span>(value)</span></p>
+        <p>Cart <span>(0)</span></p>
       </div>
     </nav>
   );
