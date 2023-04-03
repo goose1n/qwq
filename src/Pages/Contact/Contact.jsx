@@ -118,11 +118,11 @@ const Contact = () => {
       <div className={styles.Contact_Input}>
        <div className={styles.input_contact}>
         <h1>Company*</h1>
-        <input type="text" placeholder="yourcompany name here"  className={styles.inputCon}/>
+        <input type="text" placeholder="Your company name here"  className={styles.inputCon}/>
        </div>
        <div className={styles.input_contact}>
         <h1>Subject*</h1>
-        <input type="text"  placeholder="how can we help" className={styles.inputCon}/>
+        <input type="text"  placeholder="How can we help" className={styles.inputCon}/>
        </div>
       </div>
        
