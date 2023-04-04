@@ -15,7 +15,7 @@ const Home = () => {
           <h1 className={styles.firstTitle}>
             Choose the best healthier way of life
           </h1>
-          <YellowBtn text="Explore Now" />
+          <YellowBtn to="/about" text="Explore Now" />
         </div>
       </div>
       <div className={styles.homeSecond}>
@@ -76,7 +76,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <BlueBtn text="Shop Now" />
+          <BlueBtn to="/shop" text="Shop Now" />
         </div>
       </div>
       <div className={styles.fourthCont}>
@@ -153,7 +153,7 @@ const Home = () => {
             </h1>
           </div>
           <div className={styles.fifthText_right}>
-            <YellowBtn text="View All Product" />
+            <YellowBtn to="/shop" text="View All Product" />
           </div>
         </div>
         <div className={styles.fifthBlocks}>
@@ -248,7 +248,7 @@ const Home = () => {
             </h1>
           </div>
           <div className={styles.eighthText_right}>
-            <BlueBtn text="More News" />
+            <BlueBtn to="/blog" text="More News" />
           </div>
         </div>
         <div className={styles.eighthBlocks}>

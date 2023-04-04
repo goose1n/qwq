@@ -46,9 +46,11 @@ const ShopSingle = () => {
       </div>
       <div className={styles.middleContent}>
         <div className={styles.buttons}>
-          <button className={styles.blue}>Product Description</button>
           <NavLink to="/service">
-          <button className={styles.grey}>Additional Info</button>
+            <button className={styles.blue}>Product Description</button>
+          </NavLink>
+          <NavLink to="/service">
+            <button className={styles.grey}>Additional Info</button>
           </NavLink>
         </div>
         <p className={styles.middleText}>
