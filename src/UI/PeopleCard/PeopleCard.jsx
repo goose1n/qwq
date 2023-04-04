@@ -1,13 +1,16 @@
 import React from 'react'
 import styles from './PeopleCard.module.css'
-const PeopleCard = ({img, name, work, inst, face, twit}) => {
+import { NavLink } from 'react-router-dom';
+const PeopleCard = ({img, name, work, inst, face, twit, to}) => {
   return (
     <div className={styles.gridteam}>
+      <NavLink to={to}>
           <img
             className={styles.teamGridImg}
             src={img}
             alt=""
           />
+          </NavLink>
           <div className={styles.block_icon}>
              <div className={styles.nameiconteam}>
           <h3 className={styles.teamName}>{name}</h3>

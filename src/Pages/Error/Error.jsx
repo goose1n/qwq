@@ -1,6 +1,7 @@
 import React from "react";
 import Links from "../../UI/Links/Links";
 import styles from "./Error.module.css";
+import BlueBtn from '../../UI/BlueBtn/BlueBtn'
 
 const Error = () => {
   return (
@@ -15,12 +16,7 @@ const Error = () => {
         <p className={styles.errorSubtitle}>
           The page you are looking for doesn't exist or has been moved..
         </p>
-        <div className={styles.errorButton}>
-          <a className={styles.errorLink} href="/">
-            Go to Homepage
-          </a>
-          <img src="./public/imgProj/icon/Aerrow.png" alt="123" />
-        </div>
+        <BlueBtn to="/" text="Go To Homepage"/>
       </div>
     </div>
   );

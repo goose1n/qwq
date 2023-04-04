@@ -28,7 +28,6 @@ const About = () => {
             had ceased to been the industry's standard dummy text ever since the
             1500s, when an unknown printer took a galley.
           </p>
-          <br />
           <p className={styles.aboutCont_first_text_sub}>
             Simply dummy text of the printing and typesetting industry. Lorem
             had ceased to been the industry's standard dummy text ever since the
@@ -48,7 +47,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <BlueBtn text="Explore More"/>
+          <BlueBtn text="Explore More" />
         </div>
       </div>
       <div className={styles.aboutSecond}>
@@ -138,23 +137,32 @@ const About = () => {
           </p>
         </div>
         <div className={styles.thirdBlocks}>
-        <PeopleCard img="./public\ImgProj\photos\Bacardo.jpg"
+          <PeopleCard
+            to="/PortfolioSingle"
+            img="./public\ImgProj\photos\Bacardo.jpg"
             name="Giovani Bacardo"
             work="Farmer"
             face=".\public\ImgProj\icon\Fb.png"
-            twit=".\public\ImgProj\icon\Twiter.png"/>
-       <PeopleCard img="./public\ImgProj\photos\Loreno.jpg"
-          name="Marianne Loreno"
-          work="Designer"
-          inst=".\public\ImgProj\icon\Insta.png"
-          face=".\public\ImgProj\icon\Fb.png"
-          twit=".\public\ImgProj\icon\Twiter.png"/>
-       <PeopleCard img="./public\ImgProj\photos\Pelore.jpg"
-          name="Riga Pelore"
-          work="Farmer"
-          inst=".\public\ImgProj\icon\Insta.png"
-          face=".\public\ImgProj\icon\Fb.png"
-          twit=".\public\ImgProj\icon\Twiter.png"/>
+            twit=".\public\ImgProj\icon\Twiter.png"
+          />
+          <PeopleCard
+            img="./public\ImgProj\photos\Loreno.jpg"
+            to="/PortfolioSingle"
+            name="Marianne Loreno"
+            work="Designer"
+            inst=".\public\ImgProj\icon\Insta.png"
+            face=".\public\ImgProj\icon\Fb.png"
+            twit=".\public\ImgProj\icon\Twiter.png"
+          />
+          <PeopleCard
+            img="./public\ImgProj\photos\Pelore.jpg"
+            to="/PortfolioSingle"
+            name="Riga Pelore"
+            work="Farmer"
+            inst=".\public\ImgProj\icon\Insta.png"
+            face=".\public\ImgProj\icon\Fb.png"
+            twit=".\public\ImgProj\icon\Twiter.png"
+          />
         </div>
       </div>
       <div className={styles.aboutCont_fourth}>
@@ -162,25 +170,40 @@ const About = () => {
         <h1 className={styles.fourth_title}>What We Offer for You</h1>
         <div className={styles.fourth_blocks}>
           <div className={styles.fourth_block}>
-            <img className={styles.fourthBlock_img} src="./public/imgProj/photos/spicy.jpg" alt="" />
+            <img
+              className={styles.fourthBlock_img}
+              src="./public/imgProj/photos/spicy.jpg"
+              alt=""
+            />
             <p className={styles.fourthBlock_title}>Spicy</p>
           </div>
           <div className={styles.fourth_block}>
-            <img className={styles.fourthBlock_img} src="./public/imgProj/photos/nuts&feeds.jpg" alt="" />
+            <img
+              className={styles.fourthBlock_img}
+              src="./public/imgProj/photos/nuts&feeds.jpg"
+              alt=""
+            />
             <p className={styles.fourthBlock_title}>Nuts & Feesd</p>
           </div>
           <div className={styles.fourth_block}>
-            <img className={styles.fourthBlock_img} src="./public/imgProj/photos/pomegranate.jpg" alt="" />
+            <img
+              className={styles.fourthBlock_img}
+              src="./public/imgProj/photos/pomegranate.jpg"
+              alt=""
+            />
             <p className={styles.fourthBlock_title}>Fruits</p>
           </div>
           <div className={styles.fourth_block}>
-            <img className={styles.fourthBlock_img} src="./public/imgProj/photos/ginger.jpg" alt="" />
+            <img
+              className={styles.fourthBlock_img}
+              src="./public/imgProj/photos/ginger.jpg"
+              alt=""
+            />
             <p className={styles.fourthBlock_title}>Vegetable</p>
           </div>
         </div>
       </div>
       <SubBlock />
-
     </div>
   );
 };

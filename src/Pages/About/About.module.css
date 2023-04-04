@@ -29,6 +29,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  gap: 20px;
 }
 .aboutBlock {
   background-image: url(./public/imgProj/banners/bcgAbout.png);
@@ -44,13 +45,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 .aboutBlock_title {
   font-family: Roboto-Black;
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
-  line-height: 82px;
+  line-height: 70px;
   color: #274c5b;
 }
 .aboutCont_first_img {
@@ -58,6 +60,9 @@
 }
 .aboutCont_first_text {
   width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .aboutCont_first_text_yellow {
   font-family: Yellowtail;
@@ -207,6 +212,7 @@
   margin-bottom: 30px;
   gap: 30px;
   padding: 50px 0 0 0;
+  padding-bottom: 30px;
 }
 
 .aboutCont_second_four {

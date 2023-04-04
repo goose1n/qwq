@@ -3,6 +3,7 @@ import SubBlock from "../../UI/SubBlock/SubBlock";
 import BlueBtn from "../../UI/BlueBtn/BlueBtn";
 import ShopCard from "../../UI/ShopCards/Shop_Card";
 import styles from "./ShopSingle.module.css";
+import { NavLink } from "react-router-dom";
 
 const ShopSingle = () => {
   return (
@@ -38,15 +39,19 @@ const ShopSingle = () => {
           </p>
           <div className={styles.quantityCont}>
             <p className={styles.quantity}>Quantity :</p>
-            <input type="text" placeholder="1" />
+            <input type="text" />
             <BlueBtn text="Add To Cart" />
           </div>
         </div>
       </div>
       <div className={styles.middleContent}>
         <div className={styles.buttons}>
-          <button className={styles.blue}>Product Description</button>
-          <button className={styles.grey}>Additional Info</button>
+          <NavLink to="/service">
+            <button className={styles.blue}>Product Description</button>
+          </NavLink>
+          <NavLink to="/service">
+            <button className={styles.grey}>Additional Info</button>
+          </NavLink>
         </div>
         <p className={styles.middleText}>
           Welcome to the world of natural and organic. Here you can discover the
